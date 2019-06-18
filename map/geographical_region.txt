@@ -718,7 +718,7 @@ trc_provinciae_levantis = {
 	}
 }
 
-#roman reconquest tier 3
+# roman reconquest tier 3
 
 trc_diocesis_pannoniarum = {
 	duchies = {
