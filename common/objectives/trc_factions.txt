@@ -405,39 +405,17 @@ faction_imperial_campaign = {
 		}
 	}
 
-    success = {
-        OR = {
-            any_war = { using_cb = imperial_reconquest_minor }
-            any_war = { using_cb = imperial_reconquest_major }
-        }
-    }
-
     abort = {
         always = no
     }
     
     abort_effect = {
 	}
-	
+
+	success = {
+		always = no
+    }
+
 	effect = {
-		ROOT = {
-			holder_scope = {
-				# faction members get an additional opinion bonus
-				any_faction_backer = {
-					faction = faction_imperial_campaign
-					reverse_opinion = {
-						modifier = trc_opinion_modifier_roman_campaign
-						who = FROM
-						years = 2
-					}
-				}
-				
-				# decorative event for the player
-				narrative_event = {
-					id = trc.01
-					tooltip = trc_event_tooltip_01
-				}
-			}
-		}
 	}
 }
