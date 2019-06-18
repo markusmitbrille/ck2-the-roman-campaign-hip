@@ -1,0 +1,39 @@
+trc_event_modifier_roman_campaign_minor = {
+    icon = 13
+    major = yes
+    vassal_opinion = 25
+    land_morale = 0.1
+}
+
+trc_event_modifier_roman_campaign_major = {
+    icon = 13
+    major = yes
+    vassal_opinion = 50
+    land_morale = 0.2
+}
+
+trc_event_modifier_roman_campaign_minor_success = {
+    icon = 10
+    major = yes
+    vassal_opinion = 10
+}
+
+trc_event_modifier_roman_campaign_major_success = {
+    icon = 10
+    major = yes
+    vassal_opinion = 20
+}
+
+trc_event_modifier_roman_campaign_minor_fail = {
+    icon = 28
+    major = yes
+    vassal_opinion = -10
+    land_morale = -0.1
+}
+
+trc_event_modifier_roman_campaign_major_fail = {
+    icon = 28
+    major = yes
+    vassal_opinion = -20
+    land_morale = -0.2
+}

@@ -1,0 +1,33 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+faction_imperial_campaign_title;Imperial Campaign of Reconquest;;;;;;;;;;;;;x
+faction_imperial_campaign_desc;The members of this faction urge the [This.GetRulerTitle] to action against the pretenders occupying [This.GetAdjective] lands. Though they will never issue an ultimatum to their liege, their readiness to take up arms for the glory of Rome is not be underestimated. If [From.TopLiege.GetTitledName] should decide that the time has come to restore former [Root.PrimaryTitle.GetAdjective] territories to their rightful owner, these lords will be among the first to follow the [This.GetRulerTitle] into battle.;;;;;;;;;;;;;x
+
+imperial_reconquest_minor_desc;The lost territory of the Roman Empire must be reclaimed! §Y$CLAIMANT$§! can use this Casus Belli to seize all titles held by §Y$TARGET$§! within the de jure §Y$TITLE$§!.;;;;;;;;;;;;;x
+imperial_reconquest_major_desc;The lost provinces of the Roman Empire must be reclaimed! §Y$CLAIMANT$§! can use this Casus Belli to seize all titles held by §Y$TARGET$§! within the de jure §Y$TITLE$§!.;;;;;;;;;;;;;x
+
+trc_opinion_modifier_roman_campaign;Started Roman Campaign;;;;;;;;;;;;;x
+
+trc_event_modifier_roman_campaign_minor;Roman Campaign;;;;;;;;;;;;;x
+trc_event_modifier_roman_campaign_minor_desc;The [Root.GetTitle] has embarked on a military campaign to reclaim former terretories of the [Root.PrimaryTitle.GetFullName];;;;;;;;;;;;;x
+
+trc_event_modifier_roman_campaign_major;Grand Roman Campaign;;;;;;;;;;;;;x
+trc_event_modifier_roman_campaign_major_desc;The [Root.GetTitle] has embarked on an extensive military campaign to restore a former province to the [Root.PrimaryTitle.GetFullName];;;;;;;;;;;;;x
+
+trc_event_modifier_roman_campaign_minor_success;Roma Invicta!;;;;;;;;;;;;;x
+trc_event_modifier_roman_campaign_minor_success_desc;Though minor in nature, Fortuna has graced [Root.GetTitledName] with victory in [Root.GetHerHis] last campaign, boosting [Root.GetHerHis] popularity throughout [Root.PrimaryTitle.GetName]!;;;;;;;;;;;;;x
+
+trc_event_modifier_roman_campaign_minor_fail;Campaign Botched!;;;;;;;;;;;;;x
+trc_event_modifier_roman_campaign_minor_fail_desc;[Root.GetTitledName] has brought shame on [Root.PrimaryTitle.GetName] during [Root.GetHerHis] last campaign, filling the hearts of [Root.GetHerHis] subjects with doubt, whether Rome will ever regain its former glory. It will take time until these wounds will heal.;;;;;;;;;;;;;x
+
+trc_event_modifier_roman_campaign_major_success;Roma Invicta!;;;;;;;;;;;;;x
+trc_event_modifier_roman_campaign_major_success_desc;Fortuna has graced [Root.GetTitledName] with a resounding victory in [Root.GetHerHis] grand campaign! The triumph of [Root.PrimaryTitle.GetName] has left all pretenders still holding onto [Root.PrimaryTitle.GetAdjective] provinces fearing for their lives as the reconquest contines.;;;;;;;;;;;;;x
+
+trc_event_modifier_roman_campaign_major_fail;Campaign Botched!;;;;;;;;;;;;;x
+trc_event_modifier_roman_campaign_major_fail_desc;Utter ruination has been visited unto [Root.PrimaryTitle.GetName] with the spectacular defeat under [Root.GetTitledName]'s lacking leadership. The Moerae spin the threads of fate, as if thightening a suffocating corset around the carcass of a once great empire.;;;;;;;;;;;;;x
+
+trc_event_tooltip_01;A Roman Campaign has started.;;;;;;;;;;;;;x
+trc_event_title_01;The Roman Campaign;;;;;;;;;;;;;x
+trc_event_desc_01;[Root.GetTitledName] has declared the start of a military compaign of reconquest in hopes of restoring Rome to its former glory. Imperial soldiers are marching out for war, as the lords of the [Root.PrimaryTitle.GetFullName] prepare to aid their liege in [Root.GetHerHis] endeavor to expand the borders of the Empire.;;;;;;;;;;;;;x
+trc_event_option_01_1;Senatus Populusque Romanum!;;;;;;;;;;;;;x
+trc_event_option_01_1_tooltip;For the duration of the war, the lords of the [Root.PrimaryTitle.GetFullName] will be placated and focus on the reconquest. Should this endeavor fail, however, the consequences might be dire ...;;;;;;;;;;;;;x

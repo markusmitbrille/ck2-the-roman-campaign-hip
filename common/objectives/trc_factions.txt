@@ -1,0 +1,443 @@
+faction_imperial_campaign = {
+	type = liege_titles
+	exclusive = yes
+
+    # plotter scope
+    potential = {
+		prisoner = no
+		is_ruler = yes
+		independent = no
+		is_landed = yes
+		is_adult = yes
+		higher_tier_than = BARON
+		holy_order = no
+		mercenary = no
+
+		NOT = { trait = incapable }
+
+		NOR = {
+			in_faction = faction_independence
+			in_faction = faction_claimant
+			in_faction = faction_powerful_vassal_takeover
+			in_faction = faction_abrahamic_revolters
+		}
+
+		any_liege = {
+			independent = yes
+			mercenary = no
+			OR = {
+				has_landed_title = e_byzantium
+				has_landed_title = e_roman_empire
+			}
+			OR = { 
+				religion_group = christian
+				religion = hellenic_pagan
+				religion = hellenic_pagan_reformed
+			}
+			OR = {
+				NOT = { has_global_flag = rum_formed }
+				had_global_flag = { flag = rum_formed days = 5475 }
+			}
+			NOR = {
+				has_character_modifier = trc_event_modifier_roman_campaign_minor
+				has_character_modifier = trc_event_modifier_roman_campaign_major
+				has_character_modifier = trc_event_modifier_roman_campaign_minor_success
+				has_character_modifier = trc_event_modifier_roman_campaign_major_success
+				has_character_modifier = trc_event_modifier_roman_campaign_minor_fail
+				has_character_modifier = trc_event_modifier_roman_campaign_major_fail
+			}
+		}
+    }
+
+    # target scope
+    allow = {
+		OR = {
+			title = e_byzantium
+			title = e_roman_empire
+		}
+		holder_scope = {
+			independent = yes
+			mercenary = no
+			OR = { 
+				religion_group = christian
+				religion = hellenic_pagan
+				religion = hellenic_pagan_reformed
+			}
+			OR = {
+				NOT = { has_global_flag = rum_formed }
+				had_global_flag = { flag = rum_formed days = 5475 }
+			}
+			NOR = {
+				has_character_modifier = trc_event_modifier_roman_campaign_minor
+				has_character_modifier = trc_event_modifier_roman_campaign_major
+				has_character_modifier = trc_event_modifier_roman_campaign_minor_success
+				has_character_modifier = trc_event_modifier_roman_campaign_major_success
+				has_character_modifier = trc_event_modifier_roman_campaign_minor_fail
+				has_character_modifier = trc_event_modifier_roman_campaign_major_fail
+			}
+		}
+    }
+
+	# faction member scope (ROOT = joiner, FROM = target)
+    allow_join = {
+		ROOT = {
+			is_ruler = yes
+			independent = no
+			is_landed = yes
+			is_adult = yes
+			NOT = { trait = incapable }
+			prisoner = no
+			mercenary = no
+		}
+    }
+
+	# AI creation weight
+	chance = {
+		factor = 10
+		
+		modifier = {
+			factor = 2
+			FROM = {
+				OR = {
+					has_education_martial_trigger = yes
+					has_education_intrigue_trigger = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 0.1
+			FROM = {
+				OR = {
+					has_education_stewardship_trigger = yes
+					has_education_diplomacy_trigger = yes
+				}
+			}
+		}
+
+		modifier = {
+			factor = 0
+			FROM = {
+				OR = {
+					trait = content
+					trait = craven
+					trait = slothful
+					trait = stressed
+					trait = depressed
+					trait = infirm
+					trait = incapable
+					trait = blinded
+					trait = dull
+					trait = slow
+					trait = imbecile
+					trait = inbred
+				}
+			}
+		}
+
+		modifier = {
+			factor = 2
+			FROM = {
+				trait = proud
+			}
+		}
+		modifier = {
+			factor = 2
+			FROM = {
+				trait = brave
+			}
+		}
+		modifier = {
+			factor = 5
+			FROM = {
+				trait = ambitious
+			}
+		}
+
+		modifier = {
+			factor = 5
+			FROM = {
+				culture_group = byzantine
+			}
+		}
+		modifier = {
+			factor = 10
+			FROM = {
+				culture = greek
+			}
+		}
+		modifier = {
+			factor = 5
+			FROM = {
+				culture_group = latin
+			}
+		}
+		modifier = {
+			factor = 5
+			FROM = {
+				culture_group = italian_group
+			}
+		}
+		modifier = {
+			factor = 100
+			FROM = {
+				culture = roman
+			}
+		}
+	}
+
+	# AI membership weight: ROOT is the prospective member. FROM is the faction leader. FROMFROM is the target title or character.
+	membership = {
+		factor = 4
+
+        modifier = {
+			factor = 0.5
+			ROOT = {  
+				liege = { 
+					any_owned_bloodline = { has_bloodline_flag = bloodline_less_factions }
+				}
+			}
+		}
+
+        modifier = {
+			factor = 0.2
+			pacifist = yes
+			NOT = {	
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_coerced_into_joining_faction
+				}
+			}
+		}		
+
+        modifier = {
+			factor = 0
+			OR = {
+				prisoner = yes
+				trait = incapable
+				is_adult = no
+				is_landed = no
+				has_landed_title = k_orthodox
+				preparing_invasion = yes
+			}
+		}
+
+        modifier = {
+			factor = 0
+			has_character_modifier = faction_independence_ultimatum_timer
+		}
+
+		modifier = {
+			factor = 0
+			OR = {
+                in_faction = faction_independence
+                in_faction = faction_claimant
+                in_faction = faction_powerful_vassal_takeover
+                in_faction = faction_abrahamic_revolters
+			}
+			NOT = {	
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_coerced_into_joining_faction
+				}
+			}
+		}
+
+		modifier = {
+			factor = 1000
+			has_opinion_modifier = {
+				who = FROM
+				modifier = opinion_coerced_into_joining_faction
+			}
+		}
+
+		modifier = {
+			factor = 10
+			opinion = { who = FROM value > 50 } 
+		}
+		modifier = {
+			factor = 5
+			opinion = { who = FROM value > 25 } 
+		}
+		modifier = {
+			factor = 2
+			opinion = { who = FROM value > 0 } 
+		}
+		modifier = {
+			factor = 0.5
+			opinion = { who = FROM value < -25 } 
+			NOT = {	
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_coerced_into_joining_faction
+				}
+			}
+		}
+		modifier = {
+			factor = 0.1
+			opinion = { who = FROM value < -50 }
+			NOT = {	
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_coerced_into_joining_faction
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 0.025
+			trait = content
+			NOT = {	
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_coerced_into_joining_faction
+				}
+			}
+		}
+		modifier = {
+			factor = 0.025
+			trait = imbecile
+			NOT = {	
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_coerced_into_joining_faction
+				}
+			}
+		}
+		modifier = {
+			factor = 0.025
+			trait = craven
+			NOT = {	
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_coerced_into_joining_faction
+				}
+			}
+		}
+		modifier = {
+			factor = 0.1
+			trait = inbred
+			NOT = {	
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_coerced_into_joining_faction
+				}
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				trait = slow
+				trait = dull
+			}
+			NOT = {	
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_coerced_into_joining_faction
+				}
+			}
+		}
+
+		modifier = {
+			factor = 2
+			OR = {
+				has_education_martial_trigger = yes
+				has_education_intrigue_trigger = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				has_education_stewardship_trigger = yes
+				has_education_diplomacy_trigger = yes
+			}
+			NOT = {	
+				has_opinion_modifier = {
+					who = FROM
+					modifier = opinion_coerced_into_joining_faction
+				}
+			}
+		}
+
+		modifier = {
+			factor = 0.5
+			trait = charitable
+		}
+		modifier = {
+			factor = 0.5
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+		modifier = {
+			factor = 1.5
+			trait = proud
+		}
+		modifier = {
+			factor = 1.5
+			trait = brave
+		}
+		modifier = {
+			factor = 3
+			trait = ambitious
+		}
+
+		modifier = {
+			factor = 2
+			culture_group = byzantine
+		}
+		modifier = {
+			factor = 5
+			culture = greek
+		}
+		modifier = {
+			factor = 2
+			culture_group = latin
+		}
+		modifier = {
+			factor = 2
+			culture_group = italian_group
+		}
+		modifier = {
+			factor = 50
+			culture = roman
+		}
+	}
+
+    success = {
+        OR = {
+            any_war = { using_cb = imperial_reconquest_minor }
+            any_war = { using_cb = imperial_reconquest_major }
+        }
+    }
+
+    abort = {
+        always = no
+    }
+    
+    abort_effect = {
+	}
+	
+	effect = {
+		ROOT = {
+			holder_scope = {
+				# faction members get an additional opinion bonus
+				any_faction_backer = {
+					faction = faction_imperial_campaign
+					reverse_opinion = {
+						modifier = trc_opinion_modifier_roman_campaign
+						who = FROM
+						years = 2
+					}
+				}
+				
+				# decorative event for the player
+				narrative_event = {
+					id = trc.01
+					tooltip = trc_event_tooltip_01
+				}
+			}
+		}
+	}
+}

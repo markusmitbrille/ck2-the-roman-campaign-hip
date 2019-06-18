@@ -1,0 +1,6 @@
+trc_opinion_modifier_roman_campaign = {
+    opinion = 50
+    years = 10
+    decay = yes
+    non_aggression_pact = yes
+}

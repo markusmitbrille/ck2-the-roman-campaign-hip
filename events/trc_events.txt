@@ -1,0 +1,20 @@
+namespace = trc
+narrative_event = {
+    id = trc.01
+    
+    title = trc_event_title_01
+    desc = trc_event_desc_01
+
+    picture = GFX_evt_rome_restored_byzantine
+    sound = click_pledge_troops_03
+
+    is_triggered_only = yes
+    
+    option = {
+        name = trc_event_option_01_1
+        
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
