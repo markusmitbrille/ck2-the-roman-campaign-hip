@@ -9694,7 +9694,7 @@ trc_cb_imperial_reconquest_minor = {
 			custom_tooltip = {
 				text = imperial_conquest_minor_can_use_tooltip
 				any_realm_lord = {
-					limit = { leads_faction = faction_imperial_campaign }
+					leads_faction = faction_imperial_campaign
 					faction_power = {
 						faction = faction_imperial_campaign
 						power = 1 # TODO: Change to balanced value
@@ -10043,7 +10043,7 @@ trc_cb_imperial_reconquest_major = {
 			custom_tooltip = {
 				text = imperial_conquest_major_can_use_tooltip
 				any_realm_lord = {
-					limit = { leads_faction = faction_imperial_campaign }
+					leads_faction = faction_imperial_campaign
 					faction_power = {
 						faction = faction_imperial_campaign
 						power = 1 # TODO: Change to balanced value
