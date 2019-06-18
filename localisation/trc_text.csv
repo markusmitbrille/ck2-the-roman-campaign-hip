@@ -1,5 +1,23 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 
+trc_diocesis_thraciae;Diocesis Thraciae;;;;;;;;;x
+trc_diocesis_pontica;Diocesis Pontica;;;;;;;;;x
+trc_diocesis_asiana;Diocesis Asiana;;;;;;;;;x
+trc_diocesis_moesiarum;Diocesis Moesiarum;;;;;;;;;x
+trc_diocesis_orientis;Diocesis Orientis;;;;;;;;;x
+trc_provincia_dacia;Provincia Dacia;;;;;;;;;x
+trc_provinciae_levantis;Provinciae Levantis;;;;;;;;;x
+trc_diocesis_pannoniarum;Diocesis Pannoniarum;;;;;;;;;x
+trc_diocesis_africae;Diocesis Africae;;;;;;;;;x
+trc_diocesis_italiae;Diocesis Italiae;;;;;;;;;x
+trc_diocesis_hispaniarum;Diocesis Hispaniarum;;;;;;;;;x
+trc_diocesis_viennensis;Diocesis Viennensis;;;;;;;;;x
+trc_diocesis_galliarum;Diocesis Galliarum;;;;;;;;;x
+trc_diocesis_brittaniarum;Diocesis Brittaniarum;;;;;;;;;x
+trc_pars_orientalis;Pars Orientalis;;;;;;;;;x
+trc_pars_occidentalis;Pars Occidentalis;;;;;;;;;x
+trc_imperium_romanum;Imperium Romanum;;;;;;;;;x
+
 faction_imperial_campaign_title;Imperial Campaign of Reconquest;;;;;;;;;;;;;x
 faction_imperial_campaign_desc;The members of this faction urge the [This.GetRulerTitle] to action against the pretenders occupying [This.GetAdjective] lands. Though they will never issue an ultimatum to their liege, their readiness to take up arms for the glory of Rome is not be underestimated. If [From.TopLiege.GetTitledName] should decide that the time has come to restore former [Root.PrimaryTitle.GetAdjective] territories to their rightful owner, these lords will be among the first to follow the [This.GetRulerTitle] into battle.;;;;;;;;;;;;;x
 
