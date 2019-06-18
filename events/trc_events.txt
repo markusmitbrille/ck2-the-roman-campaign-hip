@@ -12,6 +12,7 @@ narrative_event = {
     
     option = {
         name = trc_event_option_01_1
+        custom_tooltip = { text = trc_event_option_01_1_tooltip }
         
         ai_chance = {
             factor = 1

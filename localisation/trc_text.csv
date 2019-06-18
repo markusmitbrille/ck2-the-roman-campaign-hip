@@ -62,6 +62,6 @@ trc_event_modifier_roman_campaign_major_fail_desc;Utter ruination has been visit
 
 trc_event_tooltip_01;A Roman Campaign has started.;;;;;;;;;;;;;x
 trc_event_title_01;The Roman Campaign;;;;;;;;;;;;;x
-trc_event_desc_01;[Root.GetTitledName] has declared the start of a military compaign of reconquest in hopes of restoring Rome to its former glory. Imperial soldiers are marching out for war, as the lords of the [Root.PrimaryTitle.GetFullName] prepare to aid their liege in [Root.GetHerHis] endeavor to expand the borders of the Empire.;;;;;;;;;;;;;x
+trc_event_desc_01;[Root.GetTitledName] has declared the start of a military compaign of reconquest in hopes of restoring Rome to its former glory. Imperial soldiers are marching out for war, as the lords of the [Root.PrimaryTitle.GetFullName] prepare to aid their liege in [Root.GetHerHis] endeavor to expand the borders of the Empire.\n\nMay Fortuna smile upon the brave sons of Rome!;;;;;;;;;;;;;x
 trc_event_option_01_1;Senatus Populusque Romanum!;;;;;;;;;;;;;x
 trc_event_option_01_1_tooltip;For the duration of the war, the lords of the [Root.PrimaryTitle.GetFullName] will be placated and focus on the reconquest. They can be called to war and the principal supporters will sign a non-aggression pact for the time being. Should this endeavor fail, however, the consequences might be dire ...;;;;;;;;;;;;;x

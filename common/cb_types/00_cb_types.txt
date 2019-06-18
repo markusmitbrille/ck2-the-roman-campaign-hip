@@ -9874,6 +9874,7 @@ trc_cb_imperial_reconquest_minor = {
 				duration = -1
 			}
 
+			# FIXME
 			# faction members get an additional opinion bonus
 			any_realm_lord = {
 				limit = { leads_faction = faction_imperial_campaign }
@@ -10223,6 +10224,7 @@ trc_cb_imperial_reconquest_major = {
 				duration = -1
 			}
 
+			# FIXME
 			# faction members get an additional opinion bonus
 			any_realm_lord = {
 				limit = { leads_faction = faction_imperial_campaign }
