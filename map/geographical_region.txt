@@ -699,7 +699,7 @@ trc_diocesis_orientis = {
 		d_seleukeia d_armenia_minor d_edessa d_amida d_aleppo d_antioch d_tripoli d_damascus d_galilee d_acre d_ascalon d_jerusalem d_jordan d_oultrejourdain d_sinai d_damietta d_cairo d_alexandria d_aswan d_cyprus
 	}
 	counties = {
-		c_mardin c_harran c_bira c_homs c_maan c_tobruk c_benghazi c_ajadabiya c_fayyum c_allaqi c_aydhab
+		c_mardin c_harran c_homs c_maan c_tobruk c_benghazi c_ajadabiya c_fayyum c_allaqi c_aydhab
 	}
 }
 trc_provincia_dacia = {
@@ -714,7 +714,7 @@ trc_provinciae_levantis = {
 		d_abkhazia d_racha d_imeretia d_mingrelia d_klarjeti d_tao d_mesopotamia d_taron d_armenia d_kartli d_kakheti d_hereti d_shirvan d_albania d_lori d_artsakh d_suenik d_vaspurakan d_samarra d_baghdad d_kufa d_tigris 
 	}
 	counties = {
-		c_rizaion c_karin c_al_jazira c_amadiya c_nineveh c_sinjar c_mosul c_asas c_al_bichri c_charpete c_jiqeti c_oromieh
+		c_rizaion c_karin c_al_jazira c_amadiya c_bira c_nineveh c_sinjar c_mosul c_asas c_al_bichri c_charpete c_jiqeti c_oromieh
 	}
 }
 
