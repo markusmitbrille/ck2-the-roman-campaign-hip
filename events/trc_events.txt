@@ -9,13 +9,12 @@ narrative_event = {
     sound = click_pledge_troops_03
 
     is_triggered_only = yes
+    only_playable = yes
+    only_rulers = yes
+    ai = no
     
     option = {
         name = trc_event_option_01_1
         custom_tooltip = { text = trc_event_option_01_1_tooltip }
-        
-        ai_chance = {
-            factor = 1
-        }
     }
 }
