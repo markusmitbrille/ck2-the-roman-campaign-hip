@@ -28,6 +28,9 @@
 # capturing_attacker_is_complete_victory - Whether capturing the attacker as a prisoner is considered automatic victory for the defender. Defaults to yes. If set to no, capture instead gives CAPTURED_HEIR_WAR_SCORE warscore
 # capturing_defender_is_complete_victory - Whether capturing the defender as a prisoner is considered automatic victory for the attacker. Defaults to yes. If set to no, capture instead gives CAPTURED_HEIR_WAR_SCORE warscore
 
+# ignore audax validator errors
+# Audax Validator "!" Ignore_NEXT
+
 # 0
 claim = {
 	name = CB_NAME_CLAIM

@@ -639,13 +639,14 @@ custom_balearic = { # Balearic Islands
 
 #### SWMH REGIONS ####
 
-
+# Audax Validator "." Ignore_NEXT
 custom_sicilian = {
 	duchies = {
 		# Calabria and Sicilia from Sicilia
 		d_calabria d_sicily
 	}
 }
+# Audax Validator "." Ignore_NEXT
 custom_neapolitan = {
 	duchies = {
 		# Sicilia except Calabria and Sicilia
