@@ -93,7 +93,7 @@ faction_imperial_campaign = {
 
 	# AI creation weight
 	chance = {
-		factor = 10
+		factor = 10 # TODO: Change to a balanced value
 		
 		modifier = {
 			factor = 2
@@ -187,7 +187,7 @@ faction_imperial_campaign = {
 
 	# AI membership weight: ROOT is the prospective member. FROM is the faction leader. FROMFROM is the target title or character.
 	membership = {
-		factor = 4
+		factor = 4 # TODO: Change to a balanced value
 
         modifier = {
 			factor = 0.5

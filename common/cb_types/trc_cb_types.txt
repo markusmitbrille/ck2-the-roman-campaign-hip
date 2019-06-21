@@ -8,7 +8,6 @@ trc_cb_imperial_reconquest_minor = {
 
 	hostile_against_others = yes
 	allowed_to_target_tributaries = yes
-	can_call_vassals = yes
 
 	sort_priority = 4000
 	
@@ -199,21 +198,27 @@ trc_cb_imperial_reconquest_minor = {
 				duration = -1
 			}
 
-			# FIXME: Opinion is not applied correctly
-			# faction members get an additional opinion bonus
-			any_realm_lord = {
-				limit = { leads_faction = faction_imperial_campaign }
-				any_faction_backer = {
-					faction = faction_imperial_campaign
-					reverse_opinion = {
+			hidden_tooltip = {
+				# faction members get an additional opinion bonus
+				any_realm_lord = {
+					limit = { leads_faction = faction_imperial_campaign }
+					opinion = {
 						modifier = trc_opinion_modifier_roman_campaign
 						who = ROOT
 						years = 2
 					}
-					reverse_opinion = {
-						modifier = opinion_grateful
-						who = PREV
-						years = 2
+					any_faction_backer = {
+						faction = faction_imperial_campaign
+						opinion = {
+							modifier = trc_opinion_modifier_roman_campaign
+							who = ROOT
+							years = 2
+						}
+						opinion = {
+							modifier = opinion_grateful
+							who = PREV
+							years = 2
+						}
 					}
 				}
 			}
@@ -358,7 +363,6 @@ trc_cb_imperial_reconquest_major = {
 
 	hostile_against_others = yes
 	allowed_to_target_tributaries = yes
-	can_call_vassals = yes
 	
 	sort_priority = 5000
 	
@@ -549,21 +553,27 @@ trc_cb_imperial_reconquest_major = {
 				duration = -1
 			}
 
-			# FIXME: Opinion is not applied correctly
-			# faction members get an additional opinion bonus
-			any_realm_lord = {
-				limit = { leads_faction = faction_imperial_campaign }
-				any_faction_backer = {
-					faction = faction_imperial_campaign
-					reverse_opinion = {
+			hidden_tooltip = {
+				# faction members get an additional opinion bonus
+				any_realm_lord = {
+					limit = { leads_faction = faction_imperial_campaign }
+					opinion = {
 						modifier = trc_opinion_modifier_roman_campaign
 						who = ROOT
 						years = 2
 					}
-					reverse_opinion = {
-						modifier = opinion_grateful
-						who = PREV
-						years = 2
+					any_faction_backer = {
+						faction = faction_imperial_campaign
+						opinion = {
+							modifier = trc_opinion_modifier_roman_campaign
+							who = ROOT
+							years = 2
+						}
+						opinion = {
+							modifier = opinion_grateful
+							who = PREV
+							years = 2
+						}
 					}
 				}
 			}
