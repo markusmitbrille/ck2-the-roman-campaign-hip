@@ -687,12 +687,18 @@ trc_diocesis_asiana = {
 
 # roman reconquest tier 2
 
-trc_diocesis_moesiarum = {
+trc_diocesis_macedoniae = {
 	duchies = {
 		d_krete d_thessalonika d_neopatras d_athens d_achaia d_epirus d_dyrrachion d_ohrid d_vidin d_rashka d_macva d_dioclea d_hum
 	}
 	counties = {
 		c_strymon
+	}
+}
+trc_diocesis_dacia = { # TODO: move daciae parts of macedoniae here
+	duchies = {
+	}
+	counties = {
 	}
 }
 trc_diocesis_orientis = {
@@ -703,9 +709,11 @@ trc_diocesis_orientis = {
 		c_mardin c_harran c_homs c_maan c_tobruk c_benghazi c_ajadabiya c_fayyum c_allaqi c_aydhab
 	}
 }
-trc_provincia_dacia = {
+
+# roman reconquest tier 3
+
+trc_diocesis_aegypti = { # TODO: move orientis parts of aegypti here
 	duchies = {
-		d_wallachia d_oltenia d_transylvania d_csanad d_pest d_ungvar d_ujavar d_bacs d_esztergom d_nyitra 
 	}
 	counties = {
 	}
@@ -719,9 +727,9 @@ trc_provinciae_levantis = {
 	}
 }
 
-# roman reconquest tier 3
+# roman reconquest tier 4
 
-trc_diocesis_pannoniarum = {
+trc_diocesis_illyrici = {
 	duchies = {
 		d_syrmia d_usora_i_soli d_bosnia d_ragusa d_dalmatia d_dalmatian_islands d_croatia d_krk d_slavonia d_pecs d_gyor d_krain d_carinthia d_styria d_osterreich d_oberbayern d_niederbayern
 	}
@@ -738,9 +746,9 @@ trc_diocesis_africae = {
 	}
 }
 
-# roman reconquest tier 4
+# roman reconquest tier 5
 
-trc_diocesis_italiae = {
+trc_diocesis_italiae_suburbicariae = {
 	duchies = {
 		d_sardinia d_corsica d_sicily d_calabria d_apulia d_salerno d_benevento d_capua d_napoli d_gaeta d_latium d_atri d_ancona d_spoleto d_urbino d_toscana d_siena d_sovana d_pisa d_lucca d_modena d_ravenna d_ferrara d_mantua d_verona d_venice d_aquileia d_lombardia d_parma d_massa d_genoa d_savona d_monferrato d_saluzzo d_ratien d_tyrol d_burgau d_teck d_tubingen d_baden
 	}
@@ -748,10 +756,16 @@ trc_diocesis_italiae = {
 		c_trieste c_susa c_vercelli c_pombia
 	}
 }
+trc_diocesis_italiae_annonariae = { # TODO: move italiae suburbicariae parts of italiae annonariae here
+	duchies = {
+	}
+	counties = {
+	}
+}
 
-# roman reconquest tier 5
+# roman reconquest tier 6
 
-trc_diocesis_hispaniarum = {
+trc_diocesis_hispaniae = {
 	duchies = {
 		d_tangiers d_mallorca d_granada d_sevilla d_cordoba d_algarve d_beja d_badajoz d_toledo d_la_mancha d_murcia d_valencia d_teruel d_zaragoza d_aragon d_urgell d_catalunya_nova d_barcelona d_najera d_navarra d_castilla d_segovia d_salamanca d_ribatejo d_beira d_porto d_leon d_galicia
 	}
@@ -767,7 +781,7 @@ trc_diocesis_viennensis = {
 	}
 }
 
-# roman reconquest tier 6
+# roman reconquest tier 7
 
 trc_diocesis_galliarum = {
 	duchies = {
@@ -778,7 +792,7 @@ trc_diocesis_galliarum = {
 	}
 }
 
-# roman reconquest tier 7
+# roman reconquest tier 8
 
 trc_diocesis_brittaniarum = {
 	duchies = {
@@ -792,12 +806,12 @@ trc_diocesis_brittaniarum = {
 
 trc_pars_orientalis = {
 	regions = {
-		trc_diocesis_thraciae trc_diocesis_pontica trc_diocesis_asiana trc_diocesis_moesiarum trc_provincia_dacia trc_diocesis_orientis trc_provinciae_levantis
+		trc_diocesis_thraciae trc_diocesis_pontica trc_diocesis_asiana trc_diocesis_macedoniae trc_diocesis_dacia trc_diocesis_orientis trc_diocesis_aegypti trc_provinciae_levantis
 	}
 }
 trc_pars_occidentalis = {
 	regions = {
-		trc_diocesis_pannoniarum trc_diocesis_africae trc_diocesis_italiae trc_diocesis_hispaniarum trc_diocesis_viennensis trc_diocesis_galliarum trc_diocesis_brittaniarum
+		trc_diocesis_illyrici trc_diocesis_africae trc_diocesis_italiae_suburbicariae trc_diocesis_italiae_annonariae trc_diocesis_hispaniae trc_diocesis_viennensis trc_diocesis_galliarum trc_diocesis_brittaniarum
 	}
 }
 

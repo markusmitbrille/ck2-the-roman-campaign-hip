@@ -59,10 +59,9 @@ trc_cb_imperial_reconquest_minor = {
 			# roman reconquest tier 2
 			AND = {
 				OR = {
-					region = trc_diocesis_moesiarum
+					region = trc_diocesis_macedoniae
+					region = trc_diocesis_dacia
 					region = trc_diocesis_orientis
-					region = trc_provincia_dacia
-					region = trc_provinciae_levantis
 				}
 				ROOT = {
 					completely_controls_region = trc_diocesis_thraciae
@@ -74,90 +73,117 @@ trc_cb_imperial_reconquest_minor = {
 			# roman reconquest tier 3
 			AND = {
 				OR = {
-					region = trc_diocesis_pannoniarum
+					region = trc_diocesis_aegypti
+					region = trc_provinciae_levantis
+				}
+				ROOT = {
+					completely_controls_region = trc_diocesis_thraciae
+					completely_controls_region = trc_diocesis_pontica
+					completely_controls_region = trc_diocesis_asiana
+					completely_controls_region = trc_diocesis_macedoniae
+					completely_controls_region = trc_diocesis_dacia
+					completely_controls_region = trc_diocesis_orientis
+				}
+			}
+
+			# roman reconquest tier 4
+			AND = {
+				OR = {
+					region = trc_diocesis_illyrici
 					region = trc_diocesis_africae
 				}
 				ROOT = {
 					completely_controls_region = trc_diocesis_thraciae
 					completely_controls_region = trc_diocesis_pontica
 					completely_controls_region = trc_diocesis_asiana
-					completely_controls_region = trc_diocesis_moesiarum
+					completely_controls_region = trc_diocesis_macedoniae
+					completely_controls_region = trc_diocesis_dacia
 					completely_controls_region = trc_diocesis_orientis
-					completely_controls_region = trc_provincia_dacia
+					completely_controls_region = trc_diocesis_aegypti
 					completely_controls_region = trc_provinciae_levantis
-				}
-			}
-
-			# roman reconquest tier 4
-			AND = {
-				region = trc_diocesis_italiae
-				ROOT = {
-					completely_controls_region = trc_diocesis_thraciae
-					completely_controls_region = trc_diocesis_pontica
-					completely_controls_region = trc_diocesis_asiana
-					completely_controls_region = trc_diocesis_moesiarum
-					completely_controls_region = trc_diocesis_orientis
-					completely_controls_region = trc_provincia_dacia
-					completely_controls_region = trc_provinciae_levantis
-					completely_controls_region = trc_diocesis_pannoniarum
-					completely_controls_region = trc_diocesis_africae
 				}
 			}
 
 			# roman reconquest tier 5
 			AND = {
 				OR = {
-					region = trc_diocesis_hispaniarum
+					region = trc_diocesis_italiae_suburbicariae
+					region = trc_diocesis_italiae_annonariae
+				}
+				ROOT = {
+					completely_controls_region = trc_diocesis_thraciae
+					completely_controls_region = trc_diocesis_pontica
+					completely_controls_region = trc_diocesis_asiana
+					completely_controls_region = trc_diocesis_macedoniae
+					completely_controls_region = trc_diocesis_dacia
+					completely_controls_region = trc_diocesis_orientis
+					completely_controls_region = trc_diocesis_aegypti
+					completely_controls_region = trc_provinciae_levantis
+					completely_controls_region = trc_diocesis_illyrici
+					completely_controls_region = trc_diocesis_africae
+				}
+			}
+
+			# roman reconquest tier 6
+			AND = {
+				OR = {
+					region = trc_diocesis_hispaniae
 					region = trc_diocesis_viennensis
 				}
 				ROOT = {
 					completely_controls_region = trc_diocesis_thraciae
 					completely_controls_region = trc_diocesis_pontica
 					completely_controls_region = trc_diocesis_asiana
-					completely_controls_region = trc_diocesis_moesiarum
+					completely_controls_region = trc_diocesis_macedoniae
+					completely_controls_region = trc_diocesis_dacia
 					completely_controls_region = trc_diocesis_orientis
-					completely_controls_region = trc_provincia_dacia
+					completely_controls_region = trc_diocesis_aegypti
 					completely_controls_region = trc_provinciae_levantis
-					completely_controls_region = trc_diocesis_pannoniarum
+					completely_controls_region = trc_diocesis_illyrici
 					completely_controls_region = trc_diocesis_africae
-					completely_controls_region = trc_diocesis_italiae
+					completely_controls_region = trc_diocesis_italiae_suburbicariae
+					completely_controls_region = trc_diocesis_italiae_annonariae
 				}
 			}
 
-			# roman reconquest tier 6
+			# roman reconquest tier 7
 			AND = {
 				region = trc_diocesis_galliarum
 				ROOT = {
 					completely_controls_region = trc_diocesis_thraciae
 					completely_controls_region = trc_diocesis_pontica
 					completely_controls_region = trc_diocesis_asiana
-					completely_controls_region = trc_diocesis_moesiarum
+					completely_controls_region = trc_diocesis_macedoniae
+					completely_controls_region = trc_diocesis_dacia
 					completely_controls_region = trc_diocesis_orientis
-					completely_controls_region = trc_provincia_dacia
+					completely_controls_region = trc_diocesis_aegypti
 					completely_controls_region = trc_provinciae_levantis
-					completely_controls_region = trc_diocesis_pannoniarum
+					completely_controls_region = trc_diocesis_illyrici
 					completely_controls_region = trc_diocesis_africae
-					completely_controls_region = trc_diocesis_italiae
-					completely_controls_region = trc_diocesis_hispaniarum
+					completely_controls_region = trc_diocesis_italiae_suburbicariae
+					completely_controls_region = trc_diocesis_italiae_annonariae
+					completely_controls_region = trc_diocesis_hispaniae
 					completely_controls_region = trc_diocesis_viennensis
 				}
 			}
 
-			# roman reconquest tier 7
+			# roman reconquest tier 8
 			AND = {
 				region = trc_diocesis_brittaniarum
 				ROOT = {
 					completely_controls_region = trc_diocesis_thraciae
 					completely_controls_region = trc_diocesis_pontica
 					completely_controls_region = trc_diocesis_asiana
-					completely_controls_region = trc_diocesis_moesiarum
+					completely_controls_region = trc_diocesis_macedoniae
+					completely_controls_region = trc_diocesis_dacia
 					completely_controls_region = trc_diocesis_orientis
-					completely_controls_region = trc_provincia_dacia
+					completely_controls_region = trc_diocesis_aegypti
 					completely_controls_region = trc_provinciae_levantis
-					completely_controls_region = trc_diocesis_pannoniarum
+					completely_controls_region = trc_diocesis_illyrici
 					completely_controls_region = trc_diocesis_africae
-					completely_controls_region = trc_diocesis_italiae
-					completely_controls_region = trc_diocesis_hispaniarum
+					completely_controls_region = trc_diocesis_italiae_suburbicariae
+					completely_controls_region = trc_diocesis_italiae_annonariae
+					completely_controls_region = trc_diocesis_hispaniae
 					completely_controls_region = trc_diocesis_viennensis
 					completely_controls_region = trc_diocesis_galliarum
 				}
@@ -414,10 +440,9 @@ trc_cb_imperial_reconquest_major = {
 			# roman reconquest tier 2
 			AND = {
 				OR = {
-					region = trc_diocesis_moesiarum
+					region = trc_diocesis_macedoniae
+					region = trc_diocesis_dacia
 					region = trc_diocesis_orientis
-					region = trc_provincia_dacia
-					region = trc_provinciae_levantis
 				}
 				ROOT = {
 					completely_controls_region = trc_diocesis_thraciae
@@ -429,90 +454,117 @@ trc_cb_imperial_reconquest_major = {
 			# roman reconquest tier 3
 			AND = {
 				OR = {
-					region = trc_diocesis_pannoniarum
+					region = trc_diocesis_aegypti
+					region = trc_provinciae_levantis
+				}
+				ROOT = {
+					completely_controls_region = trc_diocesis_thraciae
+					completely_controls_region = trc_diocesis_pontica
+					completely_controls_region = trc_diocesis_asiana
+					completely_controls_region = trc_diocesis_macedoniae
+					completely_controls_region = trc_diocesis_dacia
+					completely_controls_region = trc_diocesis_orientis
+				}
+			}
+
+			# roman reconquest tier 4
+			AND = {
+				OR = {
+					region = trc_diocesis_illyrici
 					region = trc_diocesis_africae
 				}
 				ROOT = {
 					completely_controls_region = trc_diocesis_thraciae
 					completely_controls_region = trc_diocesis_pontica
 					completely_controls_region = trc_diocesis_asiana
-					completely_controls_region = trc_diocesis_moesiarum
+					completely_controls_region = trc_diocesis_macedoniae
+					completely_controls_region = trc_diocesis_dacia
 					completely_controls_region = trc_diocesis_orientis
-					completely_controls_region = trc_provincia_dacia
+					completely_controls_region = trc_diocesis_aegypti
 					completely_controls_region = trc_provinciae_levantis
-				}
-			}
-
-			# roman reconquest tier 4
-			AND = {
-				region = trc_diocesis_italiae
-				ROOT = {
-					completely_controls_region = trc_diocesis_thraciae
-					completely_controls_region = trc_diocesis_pontica
-					completely_controls_region = trc_diocesis_asiana
-					completely_controls_region = trc_diocesis_moesiarum
-					completely_controls_region = trc_diocesis_orientis
-					completely_controls_region = trc_provincia_dacia
-					completely_controls_region = trc_provinciae_levantis
-					completely_controls_region = trc_diocesis_pannoniarum
-					completely_controls_region = trc_diocesis_africae
 				}
 			}
 
 			# roman reconquest tier 5
 			AND = {
 				OR = {
-					region = trc_diocesis_hispaniarum
+					region = trc_diocesis_italiae_suburbicariae
+					region = trc_diocesis_italiae_annonariae
+				}
+				ROOT = {
+					completely_controls_region = trc_diocesis_thraciae
+					completely_controls_region = trc_diocesis_pontica
+					completely_controls_region = trc_diocesis_asiana
+					completely_controls_region = trc_diocesis_macedoniae
+					completely_controls_region = trc_diocesis_dacia
+					completely_controls_region = trc_diocesis_orientis
+					completely_controls_region = trc_diocesis_aegypti
+					completely_controls_region = trc_provinciae_levantis
+					completely_controls_region = trc_diocesis_illyrici
+					completely_controls_region = trc_diocesis_africae
+				}
+			}
+
+			# roman reconquest tier 6
+			AND = {
+				OR = {
+					region = trc_diocesis_hispaniae
 					region = trc_diocesis_viennensis
 				}
 				ROOT = {
 					completely_controls_region = trc_diocesis_thraciae
 					completely_controls_region = trc_diocesis_pontica
 					completely_controls_region = trc_diocesis_asiana
-					completely_controls_region = trc_diocesis_moesiarum
+					completely_controls_region = trc_diocesis_macedoniae
+					completely_controls_region = trc_diocesis_dacia
 					completely_controls_region = trc_diocesis_orientis
-					completely_controls_region = trc_provincia_dacia
+					completely_controls_region = trc_diocesis_aegypti
 					completely_controls_region = trc_provinciae_levantis
-					completely_controls_region = trc_diocesis_pannoniarum
+					completely_controls_region = trc_diocesis_illyrici
 					completely_controls_region = trc_diocesis_africae
-					completely_controls_region = trc_diocesis_italiae
+					completely_controls_region = trc_diocesis_italiae_suburbicariae
+					completely_controls_region = trc_diocesis_italiae_annonariae
 				}
 			}
 
-			# roman reconquest tier 6
+			# roman reconquest tier 7
 			AND = {
 				region = trc_diocesis_galliarum
 				ROOT = {
 					completely_controls_region = trc_diocesis_thraciae
 					completely_controls_region = trc_diocesis_pontica
 					completely_controls_region = trc_diocesis_asiana
-					completely_controls_region = trc_diocesis_moesiarum
+					completely_controls_region = trc_diocesis_macedoniae
+					completely_controls_region = trc_diocesis_dacia
 					completely_controls_region = trc_diocesis_orientis
-					completely_controls_region = trc_provincia_dacia
+					completely_controls_region = trc_diocesis_aegypti
 					completely_controls_region = trc_provinciae_levantis
-					completely_controls_region = trc_diocesis_pannoniarum
+					completely_controls_region = trc_diocesis_illyrici
 					completely_controls_region = trc_diocesis_africae
-					completely_controls_region = trc_diocesis_italiae
-					completely_controls_region = trc_diocesis_hispaniarum
+					completely_controls_region = trc_diocesis_italiae_suburbicariae
+					completely_controls_region = trc_diocesis_italiae_annonariae
+					completely_controls_region = trc_diocesis_hispaniae
 					completely_controls_region = trc_diocesis_viennensis
 				}
 			}
 
-			# roman reconquest tier 7
+			# roman reconquest tier 8
 			AND = {
 				region = trc_diocesis_brittaniarum
 				ROOT = {
 					completely_controls_region = trc_diocesis_thraciae
 					completely_controls_region = trc_diocesis_pontica
 					completely_controls_region = trc_diocesis_asiana
-					completely_controls_region = trc_diocesis_moesiarum
+					completely_controls_region = trc_diocesis_macedoniae
+					completely_controls_region = trc_diocesis_dacia
 					completely_controls_region = trc_diocesis_orientis
-					completely_controls_region = trc_provincia_dacia
+					completely_controls_region = trc_diocesis_aegypti
 					completely_controls_region = trc_provinciae_levantis
-					completely_controls_region = trc_diocesis_pannoniarum
+					completely_controls_region = trc_diocesis_illyrici
 					completely_controls_region = trc_diocesis_africae
-					completely_controls_region = trc_diocesis_italiae
-					completely_controls_region = trc_diocesis_hispaniarum
+					completely_controls_region = trc_diocesis_italiae_suburbicariae
+					completely_controls_region = trc_diocesis_italiae_annonariae
+					completely_controls_region = trc_diocesis_hispaniae
 					completely_controls_region = trc_diocesis_viennensis
 					completely_controls_region = trc_diocesis_galliarum
 				}

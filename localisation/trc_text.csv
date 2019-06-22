@@ -8,47 +8,103 @@
 #     ##     ##     ##    ##       ##       ##    ## 
 #     ##    ####    ##    ######## ########  ######  
 
+k_urbs_roma;Rome;;;;;;;;;;;;x
+k_urbs_roma_adj;Roman;;;;;;;;;;;;x
+
+d_urbs_roma;Rome;;;;;;;;;;;;x
+d_urbs_roma_adj;Roman;;;;;;;;;;;;x
+
+k_urbs_byzantion;Byzanitum;;;;;;;;;;;;x
+k_urbs_byzantion_adj;Byzantine;;;;;;;;;;;;x
+
+d_urbs_byzantion;Byzantium;;;;;;;;;;;;x
+d_urbs_byzantion_adj;Byzantine;;;;;;;;;;;;x
+
 k_diocesis_thraciae;Diocese of Thrace;;;;;;;;;;;;;x
 k_diocesis_thraciae_adj;Thracian;;;;;;;;;;;;;x
 
-k_trc_diocesis_pontica;Diocese of Pontus;;;;;;;;;;;;;x
-k_trc_diocesis_pontica_adj;Pontican;;;;;;;;;;;;;x
+k_diocesis_pontica;Diocese of Pontus;;;;;;;;;;;;;x
+k_diocesis_pontica_adj;Pontican;;;;;;;;;;;;;x
 
-k_trc_diocesis_asiana;Diocese of Asia;;;;;;;;;;;;;x
-k_trc_diocesis_asiana_adj;Asian;;;;;;;;;;;;;x
+k_diocesis_asiana;Diocese of Asia;;;;;;;;;;;;;x
+k_diocesis_asiana_adj;Asian;;;;;;;;;;;;;x
 
-k_trc_diocesis_moesiarum;Diocese of Moesiae;;;;;;;;;;;;;x
-k_trc_diocesis_moesiarum_adj;Moesian;;;;;;;;;;;;;x
+k_diocesis_macedoniae;Diocese of Macedonia;;;;;;;;;;;;;x
+k_diocesis_macedoniae_adj;Macedonian;;;;;;;;;;;;;x
 
-k_trc_diocesis_orientis;Diocese of the East;;;;;;;;;;;;;x
-k_trc_diocesis_orientis_adj;Eastern;;;;;;;;;;;;;x
+k_diocesis_dacia;Diocese of Dacia;;;;;;;;;;;;;x
+k_diocesis_dacia_adj;Dacian;;;;;;;;;;;;;x
 
-k_trc_provincia_dacia;Province of Dacia;;;;;;;;;;;;;x
-k_trc_provincia_dacia_adj;Dacian;;;;;;;;;;;;;x
+k_diocesis_orientis;Diocese of the East;;;;;;;;;;;;;x
+k_diocesis_orientis_adj;Eastern;;;;;;;;;;;;;x
 
-k_trc_provinciae_levantis;Diocese of the Levant;;;;;;;;;;;;;x
-k_trc_provinciae_levantis_adj;Levantine;;;;;;;;;;;;;x
+k_diocesis_aegypti;Diocese of Egypt;;;;;;;;;;;;;x
+k_diocesis_aegypti_adj;Egyptian;;;;;;;;;;;;;x
 
-k_trc_diocesis_pannoniarum;Diocese of Illyricum;;;;;;;;;;;;;x
-k_trc_diocesis_pannoniarum_adj;Illyrian;;;;;;;;;;;;;x
+k_provinciae_levantis;Diocese of the Levant;;;;;;;;;;;;;x
+k_provinciae_levantis_adj;Levantine;;;;;;;;;;;;;x
 
-k_trc_diocesis_africae;Diocese of Africa;;;;;;;;;;;;;x
-k_trc_diocesis_africae_adj;African;;;;;;;;;;;;;x
+k_diocesis_illyrici;Diocese of Illyricum;;;;;;;;;;;;;x
+k_diocesis_illyrici_adj;Illyrian;;;;;;;;;;;;;x
 
-k_trc_diocesis_italiae;Diocese of Italy;;;;;;;;;;;;;x
-k_trc_diocesis_italiae_adj;Italian;;;;;;;;;;;;;x
+k_diocesis_africae;Diocese of Africa;;;;;;;;;;;;;x
+k_diocesis_africae_adj;African;;;;;;;;;;;;;x
 
-k_trc_diocesis_hispaniarum;Diocese of Hispania;;;;;;;;;;;;;x
-k_trc_diocesis_hispaniarum_adj;Hispanic;;;;;;;;;;;;;x
+k_diocesis_italiae_suburbicariae;Diocese of Suburbicarian Italy;;;;;;;;;;;;;x
+k_diocesis_italiae_suburbicariae_adj;Suburbicarian;;;;;;;;;;;;;x
 
-k_trc_diocesis_viennensis;Diocese of the Seven Provinces;;;;;;;;;;;;;x
-k_trc_diocesis_viennensis_adj;Viennese;;;;;;;;;;;;;x
+k_diocesis_italiae_annonariae;Diocese of Annonarian Italy;;;;;;;;;;;;;x
+k_diocesis_italiae_annonariae_adj;Annonarian;;;;;;;;;;;;;x
 
-k_trc_diocesis_galliarum;Diocese of Gaul;;;;;;;;;;;;;x
-k_trc_diocesis_galliarum_adj;Gallic;;;;;;;;;;;;;x
+k_diocesis_hispaniae;Diocese of Hispania;;;;;;;;;;;;;x
+k_diocesis_hispaniae_adj;Hispanic;;;;;;;;;;;;;x
 
-k_trc_diocesis_brittaniarum;Diocese of Britain;;;;;;;;;;;;;x
-k_trc_diocesis_brittaniarum_adj;British;;;;;;;;;;;;;x
+k_diocesis_viennensis;Diocese of the Seven Provinces;;;;;;;;;;;;;x
+k_diocesis_viennensis_adj;Viennese;;;;;;;;;;;;;x
+
+k_diocesis_galliarum;Diocese of Gaul;;;;;;;;;;;;;x
+k_diocesis_galliarum_adj;Gallic;;;;;;;;;;;;;x
+
+k_diocesis_brittaniarum;Diocese of Britain;;;;;;;;;;;;;x
+k_diocesis_brittaniarum_adj;British;;;;;;;;;;;;;x
+
+d_provincia_europa;Province of Europa;;;;;;;;;;;;;x
+d_provincia_europa_adj;European;;;;;;;;;;;;;x
+
+d_provincia_rhodope;Province of Rhodope;;;;;;;;;;;;;x
+d_provincia_rhodope_adj;Rhodopean;;;;;;;;;;;;;x
+
+d_provincia_thracia;Province of Thrace;;;;;;;;;;;;;x
+d_provincia_thracia_adj;Thracian;;;;;;;;;;;;;x
+
+d_provincia_haemimontus;Province of Haemimontus;;;;;;;;;;;;;x
+d_provincia_haemimontus_adj;Haemimontean;;;;;;;;;;;;;x
+
+d_provincia_scythia;Province of Scythia;;;;;;;;;;;;;x
+d_provincia_scythia_adj;Scythian;;;;;;;;;;;;;x
+
+d_provincia_moesia_inferior;Province of Moesia Minor;;;;;;;;;;;;;x
+d_provincia_moesia_inferior_adj;Moesian;;;;;;;;;;;;;x
+
+k_urbs_roma_title;Praefectus Urbi;;;;;;;;;;;;x
+k_urbs_roma_title_female;Praefecta Urbi;;;;;;;;;;;;x
+k_urbs_roma_foa;Ave Praefecte;;;;;;;;;;;;x
+k_urbs_roma_foa_female;Ave Praefecta;;;;;;;;;;;;x
+
+d_urbs_roma_title;Praefectus Urbi;;;;;;;;;;;;x
+d_urbs_roma_title_female;Praefecta Urbi;;;;;;;;;;;;x
+d_urbs_roma_foa;Ave Praefecte;;;;;;;;;;;;x
+d_urbs_roma_foa_female;Ave Praefecta;;;;;;;;;;;;x
+
+k_urbs_byzantium_title;Praefectus Urbi;;;;;;;;;;;;x
+k_urbs_byzantium_title_female;Praefecta Urbi;;;;;;;;;;;;x
+k_urbs_byzantium_foa;Ave Praefecte;;;;;;;;;;;;x
+k_urbs_byzantium_foa_female;Ave Praefecta;;;;;;;;;;;;x
+
+d_urbs_byzantium_title;Praefectus Urbi;;;;;;;;;;;;x
+d_urbs_byzantium_title_female;Praefecta Urbi;;;;;;;;;;;;x
+d_urbs_byzantium_foa;Ave Praefecte;;;;;;;;;;;;x
+d_urbs_byzantium_foa_female;Ave Praefecta;;;;;;;;;;;;x
 
 e_roman_empire_title;Imperator;;;;;;;;;;;;;x
 e_roman_empire_title_female;Imperatrix;;;;;;;;;;;;;x
@@ -73,20 +129,22 @@ e_roman_province_foa_female;Ave Praefecta;;;;;;;;;;;;;x
 #  ##    ##  ##       ##    ##   ##  ##     ## ##   ### ##    ## 
 #  ##     ## ########  ######   ####  #######  ##    ##  ######  
 
-trc_diocesis_thraciae;Diocesis Thraciae;;;;;;;;;x
-trc_diocesis_pontica;Diocesis Pontica;;;;;;;;;x
-trc_diocesis_asiana;Diocesis Asiana;;;;;;;;;x
-trc_diocesis_moesiarum;Diocesis Moesiarum;;;;;;;;;x
-trc_diocesis_orientis;Diocesis Orientis;;;;;;;;;x
-trc_provincia_dacia;Provincia Dacia;;;;;;;;;x
+trc_diocesis_thraciae;Dioecesis Thraciae;;;;;;;;;x
+trc_diocesis_pontica;Dioecesis Pontica;;;;;;;;;x
+trc_diocesis_asiana;Dioecesis Asiana;;;;;;;;;x
+trc_diocesis_macedoniae;Dioecesis Macedoniae;;;;;;;;;x
+trc_diocesis_dacia;Dioecesis Daciae;;;;;;;;;x
+trc_diocesis_orientis;Dioecesis Orientis;;;;;;;;;x
+trc_diocesis_aegypti;Dioecesis Aegypti;;;;;;;;;x
 trc_provinciae_levantis;Provinciae Levantis;;;;;;;;;x
-trc_diocesis_pannoniarum;Diocesis Pannoniarum;;;;;;;;;x
-trc_diocesis_africae;Diocesis Africae;;;;;;;;;x
-trc_diocesis_italiae;Diocesis Italiae;;;;;;;;;x
-trc_diocesis_hispaniarum;Diocesis Hispaniarum;;;;;;;;;x
-trc_diocesis_viennensis;Diocesis Viennensis;;;;;;;;;x
-trc_diocesis_galliarum;Diocesis Galliarum;;;;;;;;;x
-trc_diocesis_brittaniarum;Diocesis Brittaniarum;;;;;;;;;x
+trc_diocesis_illyrici;Dioecesis Illyrici;;;;;;;;;x
+trc_diocesis_africae;Dioecesis Africae;;;;;;;;;x
+trc_diocesis_italiae_suburbicariae;Dioecesis Italiae Suburbicariae;;;;;;;;;x
+trc_diocesis_italiae_annonariae;Dioecesis Italiae Annonariae;;;;;;;;;x
+trc_diocesis_hispaniae;Dioecesis Hispaniae;;;;;;;;;x
+trc_diocesis_viennensis;Dioecesis Viennensis;;;;;;;;;x
+trc_diocesis_galliarum;Dioecesis Galliae;;;;;;;;;x
+trc_diocesis_brittaniarum;Dioecesis Brittaniae;;;;;;;;;x
 trc_pars_orientalis;Pars Orientalis;;;;;;;;;x
 trc_pars_occidentalis;Pars Occidentalis;;;;;;;;;x
 trc_imperium_romanum;Imperium Romanum;;;;;;;;;x
