@@ -14,14 +14,26 @@ k_urbs_roma_adj;Roman;;;;;;;;;;;;x
 d_urbs_roma;Rome;;;;;;;;;;;;x
 d_urbs_roma_adj;Roman;;;;;;;;;;;;x
 
-k_urbs_byzantion;Byzanitum;;;;;;;;;;;;x
-k_urbs_byzantion_adj;Byzantine;;;;;;;;;;;;x
+k_urbs_byzantium;Byzanitum;;;;;;;;;;;;x
+k_urbs_byzantium_adj;Byzantine;;;;;;;;;;;;x
 
-d_urbs_byzantion;Byzantium;;;;;;;;;;;;x
-d_urbs_byzantion_adj;Byzantine;;;;;;;;;;;;x
+d_urbs_byzantium;Byzantium;;;;;;;;;;;;x
+d_urbs_byzantium_adj;Byzantine;;;;;;;;;;;;x
 
 k_diocesis_thraciae;Diocese of Thrace;;;;;;;;;;;;;x
 k_diocesis_thraciae_adj;Thracian;;;;;;;;;;;;;x
+
+d_provincia_europa;Province of Europa;;;;;;;;;;;;;x
+d_provincia_europa_adj;European;;;;;;;;;;;;;x
+
+d_provincia_thracia;Province of Thrace;;;;;;;;;;;;;x
+d_provincia_thracia_adj;Thracian;;;;;;;;;;;;;x
+
+d_provincia_scythia;Province of Scythia;;;;;;;;;;;;;x
+d_provincia_scythia_adj;Scythian;;;;;;;;;;;;;x
+
+d_provincia_moesia_inferior;Province of Moesia Minor;;;;;;;;;;;;;x
+d_provincia_moesia_inferior_adj;Moesian;;;;;;;;;;;;;x
 
 k_diocesis_pontica;Diocese of Pontus;;;;;;;;;;;;;x
 k_diocesis_pontica_adj;Pontican;;;;;;;;;;;;;x
@@ -32,8 +44,8 @@ k_diocesis_asiana_adj;Asian;;;;;;;;;;;;;x
 k_diocesis_macedoniae;Diocese of Macedonia;;;;;;;;;;;;;x
 k_diocesis_macedoniae_adj;Macedonian;;;;;;;;;;;;;x
 
-k_diocesis_dacia;Diocese of Dacia;;;;;;;;;;;;;x
-k_diocesis_dacia_adj;Dacian;;;;;;;;;;;;;x
+k_diocesis_daciae;Diocese of Dacia;;;;;;;;;;;;;x
+k_diocesis_daciae_adj;Dacian;;;;;;;;;;;;;x
 
 k_diocesis_orientis;Diocese of the East;;;;;;;;;;;;;x
 k_diocesis_orientis_adj;Eastern;;;;;;;;;;;;;x
@@ -68,58 +80,25 @@ k_diocesis_galliarum_adj;Gallic;;;;;;;;;;;;;x
 k_diocesis_brittaniarum;Diocese of Britain;;;;;;;;;;;;;x
 k_diocesis_brittaniarum_adj;British;;;;;;;;;;;;;x
 
-d_provincia_europa;Province of Europa;;;;;;;;;;;;;x
-d_provincia_europa_adj;European;;;;;;;;;;;;;x
-
-d_provincia_rhodope;Province of Rhodope;;;;;;;;;;;;;x
-d_provincia_rhodope_adj;Rhodopean;;;;;;;;;;;;;x
-
-d_provincia_thracia;Province of Thrace;;;;;;;;;;;;;x
-d_provincia_thracia_adj;Thracian;;;;;;;;;;;;;x
-
-d_provincia_haemimontus;Province of Haemimontus;;;;;;;;;;;;;x
-d_provincia_haemimontus_adj;Haemimontean;;;;;;;;;;;;;x
-
-d_provincia_scythia;Province of Scythia;;;;;;;;;;;;;x
-d_provincia_scythia_adj;Scythian;;;;;;;;;;;;;x
-
-d_provincia_moesia_inferior;Province of Moesia Minor;;;;;;;;;;;;;x
-d_provincia_moesia_inferior_adj;Moesian;;;;;;;;;;;;;x
-
-k_urbs_roma_title;Praefectus Urbi;;;;;;;;;;;;x
-k_urbs_roma_title_female;Praefecta Urbi;;;;;;;;;;;;x
-k_urbs_roma_foa;Ave Praefecte;;;;;;;;;;;;x
-k_urbs_roma_foa_female;Ave Praefecta;;;;;;;;;;;;x
-
-d_urbs_roma_title;Praefectus Urbi;;;;;;;;;;;;x
-d_urbs_roma_title_female;Praefecta Urbi;;;;;;;;;;;;x
-d_urbs_roma_foa;Ave Praefecte;;;;;;;;;;;;x
-d_urbs_roma_foa_female;Ave Praefecta;;;;;;;;;;;;x
-
-k_urbs_byzantium_title;Praefectus Urbi;;;;;;;;;;;;x
-k_urbs_byzantium_title_female;Praefecta Urbi;;;;;;;;;;;;x
-k_urbs_byzantium_foa;Ave Praefecte;;;;;;;;;;;;x
-k_urbs_byzantium_foa_female;Ave Praefecta;;;;;;;;;;;;x
-
-d_urbs_byzantium_title;Praefectus Urbi;;;;;;;;;;;;x
-d_urbs_byzantium_title_female;Praefecta Urbi;;;;;;;;;;;;x
-d_urbs_byzantium_foa;Ave Praefecte;;;;;;;;;;;;x
-d_urbs_byzantium_foa_female;Ave Praefecta;;;;;;;;;;;;x
+roman_urbs_title;Praefectus Urbi;;;;;;;;;;;;x
+roman_urbs_title_female;Praefecta Urbi;;;;;;;;;;;;x
+roman_urbs_foa;Ave Praefecte;;;;;;;;;;;;x
+roman_urbs_foa_female;Ave Praefecta;;;;;;;;;;;;x
 
 e_roman_empire_title;Imperator;;;;;;;;;;;;;x
 e_roman_empire_title_female;Imperatrix;;;;;;;;;;;;;x
 e_roman_empire_foa;Ave Imperator;;;;;;;;;;;;;x
 e_roman_empire_foa_female;Ave Imperatrix;;;;;;;;;;;;;x
 
-e_roman_diocese_title;Vicarius;;;;;;;;;;;;;x
-e_roman_diocese_title_female;Vicaria;;;;;;;;;;;;;x
-e_roman_diocese_foa;Ave Vicarie;;;;;;;;;;;;;x
-e_roman_diocese_foa_female;Ave Vicaria;;;;;;;;;;;;;x
+k_roman_diocese_title;Vicarius;;;;;;;;;;;;;x
+k_roman_diocese_title_female;Vicaria;;;;;;;;;;;;;x
+k_roman_diocese_foa;Ave Vicarie;;;;;;;;;;;;;x
+k_roman_diocese_foa_female;Ave Vicaria;;;;;;;;;;;;;x
 
-e_roman_province_title;Praefectus;;;;;;;;;;;;;x
-e_roman_province_title_female;Praefecta;;;;;;;;;;;;;x
-e_roman_province_foa;Ave Praefecte;;;;;;;;;;;;;x
-e_roman_province_foa_female;Ave Praefecta;;;;;;;;;;;;;x
+d_roman_province_title;Praeses;;;;;;;;;;;;;x
+d_roman_province_title_female;Praesidetrix;;;;;;;;;;;;;x
+d_roman_province_foa;Ave Praeses;;;;;;;;;;;;;x
+d_roman_province_foa_female;Ave Praesidetrix;;;;;;;;;;;;;x
 
 #  ########  ########  ######   ####  #######  ##    ##  ######  
 #  ##     ## ##       ##    ##   ##  ##     ## ###   ## ##    ## 
@@ -219,6 +198,34 @@ trc_event_desc_01;[Root.GetTitledName] has declared the start of a military comp
 trc_event_option_01_1;Senatus Populusque Romanum!;;;;;;;;;;;;;x
 trc_event_option_01_1_tooltip;For the duration of the war, the lords of the [Root.PrimaryTitle.GetFullName] will be placated and focus on the reconquest and the principal supporters will sign a non-aggression pact for the time being. Should this endeavor fail, however, the consequences might be dire ...;;;;;;;;;;;;;x
 
-trc_region_restoration_title_01;Diocese Restored;;;;;;;;;;;;;x
-trc_region_restoration_desc_01;Romans all over the Empire rejoice as the old Diocese of Thrace has been restored to civilized rule.\n\nComprised of the provinces of the eastern Balkan peninsular, it lies close to the heartlands of modern Rome and due to its proximity to [c_byzantion.GetName] it has always been viewed as one of the first stepping stones in the reconquest of ancient territories lost to barbarism.;;;;;;;;;;;;;x
-trc_region_restoration_option_01;Roma Invicta! SPQR!;;;;;;;;;;;;;x
+trc_region_restoration_title_diocese;Diocese Restored;;;;;;;;;;;;;x
+trc_region_restoration_option_diocese;Roma Invicta! SPQR!;;;;;;;;;;;;;x
+
+trc_region_restoration_desc_01;Romans all over the Empire rejoice as the old diocese of Thrace has been restored to civilized rule.\n\nComprised of the eastern Balkan provinces, it lies close to the heartlands of modern Rome and due to its proximity to [c_byzantion.GetName] it has always been viewed as one of the first stepping stones in the reconquest of ancient territories, lost to barbarism.;;;;;;;;;;;;;x
+trc_region_restoration_desc_02;Romans all over the Empire rejoice as the old diocese of Pontus has been restored to civilized rule.\n\nCircling along the south-eastern coasts of the Eúxeinos Póntos and comprising the northern parts of Anatolia, the diocesis is of strategic importance in the ongoing conflict with the Muhammadan infidels.;;;;;;;;;;;;;x
+trc_region_restoration_desc_03;Romans all over the Empire rejoice as the old diocese of Asia has been restored to civilized rule.\n\nThese ancient greek lands form the commercial powerbase of modern Rome, with their control of the Bosporus and the eastern Mediterranean.;;;;;;;;;;;;;x
+trc_region_restoration_desc_04;Romans all over the Empire rejoice as the old diocese of Macedon has been restored to civilized rule.\n\nThe heartlands of ancient greece are seen as the cradle of modern civilization. Known for their excellency in philosophy, mathematics, warfare and statecraft, we stand on the shoulders of giants as the heirs to their vast and brilliant legacy.;;;;;;;;;;;;;x
+trc_region_restoration_desc_05;Romans all over the Empire rejoice as the old diocese of Dacia has been restored to civilized rule.\n\nDevastated by Huns in the fifth century and finally overrun by Avars and Slavs in the years to follow, most had thought the western Balkans lost to barbarism. Even now our brave soldiers are working hard to establish outposts and rebuild infrastructure long abandoned by the tribal peoples occupying the land.;;;;;;;;;;;;;x
+trc_region_restoration_desc_06;Romans all over the Empire rejoice as the old diocese of the East has been restored to civilized rule.\n\nWith Antioch safely under Roman rule again, Christians have begun making their pilgrimages to one of the most holy sites of the orient. Their fury rises in tandem with despair, as the Muhammadans are being pushed further and further back into the far reaches of the Roman sphere of interest.;;;;;;;;;;;;;x
+trc_region_restoration_desc_07;Romans all over the Empire rejoice as the old diocese of Egypt has been restored to civilized rule.\n\nOur brave soldiers managed to recover Alexandria, one of the greatest sites of Hellenic civilization, fighting through the fire and flames of Muhammadan resistance. As the richest province of the orient is lost to them, it is only a matter of time until their frail empires collapse under the weight of their own incompetence.;;;;;;;;;;;;;x
+trc_region_restoration_desc_08;Romans all over the Empire rejoice as the old provinces of the Levant have been restored to civilized rule.\n\nThough never part of an imperial diocese, as they had been lost long before, the provinces of Armenia, Assyria and Mesopotamia are back in the imperial fold. [Root.GetTitledName] has decreed that the great city [c_baghdad.GetName] become the capital of the new diocese, so as to honor Muhammedan accomplishment, small though it may seem in comparison to Roman splendour.;;;;;;;;;;;;;x
+trc_region_restoration_desc_09;Romans all over the Empire rejoice as the old diocese of Illyricum has been restored to civilized rule.\n\n;;;;;;;;;;;;;x
+trc_region_restoration_desc_10;Romans all over the Empire rejoice as the old diocese of Africa has been restored to civilized rule.\n\n;;;;;;;;;;;;;x
+trc_region_restoration_desc_11;Romans all over the Empire rejoice as the old diocese of Suburbicarian Italy has been restored to civilized rule.\n\n;;;;;;;;;;;;;x
+trc_region_restoration_desc_12;Romans all over the Empire rejoice as the old diocese of Annonarian Italy has been restored to civilized rule.\n\n;;;;;;;;;;;;;x
+trc_region_restoration_desc_13;Romans all over the Empire rejoice as the old diocese of Spain has been restored to civilized rule.\n\n;;;;;;;;;;;;;x
+trc_region_restoration_desc_14;Romans all over the Empire rejoice as the old diocese of the Seven Provinces has been restored to civilized rule.\n\n;;;;;;;;;;;;;x
+trc_region_restoration_desc_15;Romans all over the Empire rejoice as the old diocese of Gaul has been restored to civilized rule.\n\n;;;;;;;;;;;;;x
+trc_region_restoration_desc_16;Romans all over the Empire rejoice as the old diocese of Britain has been restored to civilized rule.\n\n;;;;;;;;;;;;;x
+
+trc_region_restoration_title_pars_orientalis;Eastern Rome Restored;;;;;;;;;;;;;x
+trc_region_restoration_desc_pars_orientalis;After decades of bloody warfare, we have restored the borders of the pars orientalis, the eastern part of Rome.\n\nThe Muhammadan usurpers have been vanquished and banished back into their desolate desert realms, soon to disappear into obscurity, albeit many faith Roman citizens consider oblivion to be a punishment not nearly harsh enough.\n\nWhile the festivities will carry on for weeks and weeks to come, [Root.GetTitledName] already looks towards the future and the future lies west ...;;;;;;;;;;;;;x
+trc_region_restoration_option_pars_orientalis;This is but a stepping stone! SPQR!;;;;;;;;;;;;;x
+
+trc_region_restoration_title_pars_occidentalis;Western Rome Restored;;;;;;;;;;;;;x
+trc_region_restoration_desc_pars_occidentalis;The German usurpers and their ilk have been subdued or driven out of the pars occidentalis, the western part of Rome.\n\nWhen the Empire crumbled under the weight of threats internal and threats external, the German peoples invaded the heart of Rome and took to styling themselves successors of the Romans, when the true heirs of that legacy were forced to retreat eastward. Centuries later we returned to take what has always been rightfully ours and triumphed, where others thought victory impossible.;;;;;;;;;;;;;x
+trc_region_restoration_option_pars_occidentalis;Oderint dum metuant!;;;;;;;;;;;;;x
+
+trc_region_restoration_title_imperium_romanum;The Empire Restored;;;;;;;;;;;;;x
+trc_region_restoration_desc_imperium_romanum;Citizens, Romans, Brothers ...", [Root.GetTitledName] began [Root.GetHerHis] speech. "Veni. Vidi. Vici. It has been done. Rome is ours!"\n\nYour adoring subjects break out into a euphoric frenzy, commoners, nobles, soldier and citizen alike roar their approval. After centuries of strife and decline, Rome has clawed its way back and reclaimed all its holdings, territories thought lost to barbarians and despoilers and under your rule it will continue into a bright, golden age of prosperity.;;;;;;;;;;;;;x
+trc_region_restoration_option_imperium_romanum;Roma Invicta! Roma Aeternalis!;;;;;;;;;;;;;x

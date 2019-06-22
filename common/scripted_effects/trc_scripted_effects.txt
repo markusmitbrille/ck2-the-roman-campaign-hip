@@ -1,0 +1,41 @@
+trc_effect_restore_diocesis_cost = {
+    if = {
+        limit = { diplomacy > 30 }
+        prestige > 100
+    }
+    else_if = {
+        limit = { diplomacy > 20 }
+        prestige > 250
+    }
+    else_if = {
+        limit = { diplomacy > 15 }
+        prestige > 500
+    }
+    else_if = {
+        limit = { diplomacy > 10 }
+        prestige > 1000
+    }
+    else = {
+        prestige > 5000
+    }
+
+    if = {
+        limit = { stewardship > 30 }
+        wealth > 100
+    }
+    else_if = {
+        limit = { stewardship > 20 }
+        wealth > 250
+    }
+    else_if = {
+        limit = { stewardship > 15 }
+        wealth > 500
+    }
+    else_if = {
+        limit = { stewardship > 10 }
+        wealth > 1000
+    }
+    else = {
+        wealth > 5000
+    }
+}

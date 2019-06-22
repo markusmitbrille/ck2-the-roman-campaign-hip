@@ -12,7 +12,7 @@ namespace = trc_region_restoration
 # Diocesis Thraciae
 narrative_event = {
 	id = trc_region_restoration.01
-	title = trc_region_restoration_title_01
+	title = trc_region_restoration_title_diocese
 	desc = trc_region_restoration_desc_01
 
 	picture = GFX_evt_victory_arch_byzantine
@@ -44,10 +44,758 @@ narrative_event = {
 	}
 
 	option = {
-		name = trc_region_restoration_option_01
+		name = trc_region_restoration_option_diocese
 		prestige = 1000
 		set_global_flag = trc_diocesis_thraciae_restored
-		# TODO: activate and create landed title for this region (needs to be implemented first)
+	}
+}
+
+# Diocesis Pontica
+narrative_event = {
+	id = trc_region_restoration.02
+	title = trc_region_restoration_title_diocese
+	desc = trc_region_restoration_desc_02
+
+	picture = GFX_evt_victory_arch_byzantine
+
+	only_playable = yes
+	ai = no
+
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
+		OR = {
+			religion_group = christian
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+		}
+
+		completely_controls_region = trc_diocesis_pontica
+
+		# only fire once
+		NOT = { has_global_flag = trc_diocesis_pontica_restored }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = trc_region_restoration_option_diocese
+		prestige = 1000
+		set_global_flag = trc_diocesis_pontica_restored
+	}
+}
+
+# Diocesis Asiana
+narrative_event = {
+	id = trc_region_restoration.03
+	title = trc_region_restoration_title_diocese
+	desc = trc_region_restoration_desc_03
+
+	picture = GFX_evt_victory_arch_byzantine
+
+	only_playable = yes
+	ai = no
+
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
+		OR = {
+			religion_group = christian
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+		}
+
+		completely_controls_region = trc_diocesis_asiana
+
+		# only fire once
+		NOT = { has_global_flag = trc_diocesis_asiana_restored }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = trc_region_restoration_option_diocese
+		prestige = 1000
+		set_global_flag = trc_diocesis_asiana_restored
+	}
+}
+
+# Diocesis Macedoniae
+narrative_event = {
+	id = trc_region_restoration.04
+	title = trc_region_restoration_title_diocese
+	desc = trc_region_restoration_desc_04
+
+	picture = GFX_evt_victory_arch_byzantine
+
+	only_playable = yes
+	ai = no
+
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
+		OR = {
+			religion_group = christian
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+		}
+
+		completely_controls_region = trc_diocesis_macedoniae
+
+		# only fire once
+		NOT = { has_global_flag = trc_diocesis_macedoniae_restored }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = trc_region_restoration_option_diocese
+		prestige = 1000
+		set_global_flag = trc_diocesis_macedoniae_restored
+	}
+}
+
+# Diocesis Daciae
+narrative_event = {
+	id = trc_region_restoration.05
+	title = trc_region_restoration_title_diocese
+	desc = trc_region_restoration_desc_05
+
+	picture = GFX_evt_victory_arch_byzantine
+
+	only_playable = yes
+	ai = no
+
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
+		OR = {
+			religion_group = christian
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+		}
+
+		completely_controls_region = trc_diocesis_dacia
+
+		# only fire once
+		NOT = { has_global_flag = trc_diocesis_daciae_restored }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = trc_region_restoration_option_diocese
+		prestige = 1000
+		set_global_flag = trc_diocesis_daciae_restored
+	}
+}
+
+# Diocesis Orientis
+narrative_event = {
+	id = trc_region_restoration.06
+	title = trc_region_restoration_title_diocese
+	desc = trc_region_restoration_desc_06
+
+	picture = GFX_evt_victory_arch_byzantine
+
+	only_playable = yes
+	ai = no
+
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
+		OR = {
+			religion_group = christian
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+		}
+
+		completely_controls_region = trc_diocesis_orientis
+
+		# only fire once
+		NOT = { has_global_flag = trc_diocesis_orientis_restored }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = trc_region_restoration_option_diocese
+		prestige = 1000
+		set_global_flag = trc_diocesis_orientis_restored
+	}
+}
+
+# Diocesis Aegypti
+narrative_event = {
+	id = trc_region_restoration.07
+	title = trc_region_restoration_title_diocese
+	desc = trc_region_restoration_desc_07
+
+	picture = GFX_evt_victory_arch_byzantine
+
+	only_playable = yes
+	ai = no
+
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
+		OR = {
+			religion_group = christian
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+		}
+
+		completely_controls_region = trc_diocesis_aegypti
+
+		# only fire once
+		NOT = { has_global_flag = trc_diocesis_aegypti_restored }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = trc_region_restoration_option_diocese
+		prestige = 1000
+		set_global_flag = trc_diocesis_aegypti_restored
+	}
+}
+
+# Diocesis Provinciae Levantis
+narrative_event = {
+	id = trc_region_restoration.08
+	title = trc_region_restoration_title_diocese
+	desc = trc_region_restoration_desc_08
+
+	picture = GFX_evt_victory_arch_byzantine
+
+	only_playable = yes
+	ai = no
+
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
+		OR = {
+			religion_group = christian
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+		}
+
+		completely_controls_region = trc_provinciae_levantis
+
+		# only fire once
+		NOT = { has_global_flag = trc_diocesis_provinciae_levantis_restored }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = trc_region_restoration_option_diocese
+		prestige = 1000
+		set_global_flag = trc_diocesis_provinciae_levantis_restored
+	}
+}
+
+# Diocesis Illyrici
+narrative_event = {
+	id = trc_region_restoration.09
+	title = trc_region_restoration_title_diocese
+	desc = trc_region_restoration_desc_09
+
+	picture = GFX_evt_victory_arch_byzantine
+
+	only_playable = yes
+	ai = no
+
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
+		OR = {
+			religion_group = christian
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+		}
+
+		completely_controls_region = trc_diocesis_illyrici
+
+		# only fire once
+		NOT = { has_global_flag = trc_diocesis_illyrici_restored }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = trc_region_restoration_option_diocese
+		prestige = 1000
+		set_global_flag = trc_diocesis_illyrici_restored
+	}
+}
+
+# Diocesis Africae
+narrative_event = {
+	id = trc_region_restoration.10
+	title = trc_region_restoration_title_diocese
+	desc = trc_region_restoration_desc_10
+
+	picture = GFX_evt_victory_arch_byzantine
+
+	only_playable = yes
+	ai = no
+
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
+		OR = {
+			religion_group = christian
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+		}
+
+		completely_controls_region = trc_diocesis_africae
+
+		# only fire once
+		NOT = { has_global_flag = trc_diocesis_africae_restored }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = trc_region_restoration_option_diocese
+		prestige = 1000
+		set_global_flag = trc_diocesis_africae_restored
+	}
+}
+
+# Diocesis Italiae Suburbicariae
+narrative_event = {
+	id = trc_region_restoration.11
+	title = trc_region_restoration_title_diocese
+	desc = trc_region_restoration_desc_11
+
+	picture = GFX_evt_victory_arch_byzantine
+
+	only_playable = yes
+	ai = no
+
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
+		OR = {
+			religion_group = christian
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+		}
+
+		completely_controls_region = trc_diocesis_italiae_suburbicariae
+
+		# only fire once
+		NOT = { has_global_flag = trc_diocesis_italiae_suburbicariae_restored }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = trc_region_restoration_option_diocese
+		prestige = 1000
+		set_global_flag = trc_diocesis_italiae_suburbicariae_restored
+	}
+}
+
+# Diocesis Italiae Annonariae
+narrative_event = {
+	id = trc_region_restoration.12
+	title = trc_region_restoration_title_diocese
+	desc = trc_region_restoration_desc_12
+
+	picture = GFX_evt_victory_arch_byzantine
+
+	only_playable = yes
+	ai = no
+
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
+		OR = {
+			religion_group = christian
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+		}
+
+		completely_controls_region = trc_diocesis_italiae_annonariae
+
+		# only fire once
+		NOT = { has_global_flag = trc_diocesis_italiae_annonariae_restored }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = trc_region_restoration_option_diocese
+		prestige = 1000
+		set_global_flag = trc_diocesis_italiae_annonariae_restored
+	}
+}
+
+# Diocesis Hispaniae
+narrative_event = {
+	id = trc_region_restoration.13
+	title = trc_region_restoration_title_diocese
+	desc = trc_region_restoration_desc_13
+
+	picture = GFX_evt_victory_arch_byzantine
+
+	only_playable = yes
+	ai = no
+
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
+		OR = {
+			religion_group = christian
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+		}
+
+		completely_controls_region = trc_diocesis_hispaniae
+
+		# only fire once
+		NOT = { has_global_flag = trc_diocesis_hispaniae_restored }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = trc_region_restoration_option_diocese
+		prestige = 1000
+		set_global_flag = trc_diocesis_hispaniae_restored
+	}
+}
+
+# Diocesis Viennensis
+narrative_event = {
+	id = trc_region_restoration.14
+	title = trc_region_restoration_title_diocese
+	desc = trc_region_restoration_desc_14
+
+	picture = GFX_evt_victory_arch_byzantine
+
+	only_playable = yes
+	ai = no
+
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
+		OR = {
+			religion_group = christian
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+		}
+
+		completely_controls_region = trc_diocesis_viennensis
+
+		# only fire once
+		NOT = { has_global_flag = trc_diocesis_viennensis_restored }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = trc_region_restoration_option_diocese
+		prestige = 1000
+		set_global_flag = trc_diocesis_viennensis_restored
+	}
+}
+
+# Diocesis Galliarum
+narrative_event = {
+	id = trc_region_restoration.15
+	title = trc_region_restoration_title_diocese
+	desc = trc_region_restoration_desc_15
+
+	picture = GFX_evt_victory_arch_byzantine
+
+	only_playable = yes
+	ai = no
+
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
+		OR = {
+			religion_group = christian
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+		}
+
+		completely_controls_region = trc_diocesis_galliarum
+
+		# only fire once
+		NOT = { has_global_flag = trc_diocesis_galliarum_restored }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = trc_region_restoration_option_diocese
+		prestige = 1000
+		set_global_flag = trc_diocesis_galliarum_restored
+	}
+}
+
+# Diocesis Brittaniae
+narrative_event = {
+	id = trc_region_restoration.16
+	title = trc_region_restoration_title_diocese
+	desc = trc_region_restoration_desc_16
+
+	picture = GFX_evt_victory_arch_byzantine
+
+	only_playable = yes
+	ai = no
+
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
+		OR = {
+			religion_group = christian
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+		}
+
+		completely_controls_region = trc_diocesis_brittaniarum
+
+		# only fire once
+		NOT = { has_global_flag = trc_diocesis_brittaniarum_restored }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = trc_region_restoration_option_diocese
+		prestige = 1000
+		set_global_flag = trc_diocesis_brittaniarum_restored
+	}
+}
+
+# Pars Orientalis
+narrative_event = {
+	id = trc_region_restoration.30
+	title = trc_region_restoration_title_pars_orientalis
+	desc = trc_region_restoration_desc_pars_orientalis
+
+	picture = GFX_evt_victory_arch_byzantine
+
+	only_playable = yes
+	ai = no
+
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
+		OR = {
+			religion_group = christian
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+		}
+
+		completely_controls_region = trc_pars_orientalis
+
+		# only fire once
+		NOT = { has_global_flag = trc_pars_orientalis_restored }
+
+		# wait a week after other restoration events
+		had_global_flag = { flag = trc_diocesis_aegypti_restored days = 7 }
+		had_global_flag = { flag = trc_diocesis_provinciae_levantis_restored days = 7 }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = trc_region_restoration_option_pars_orientalis
+		prestige = 10000
+		set_global_flag = trc_pars_orientalis_restored
+	}
+}
+
+# Pars Occidentalis
+narrative_event = {
+	id = trc_region_restoration.31
+	title = trc_region_restoration_title_pars_occidentalis
+	desc = trc_region_restoration_desc_pars_occidentalis
+
+	picture = GFX_evt_victory_arch_byzantine
+
+	only_playable = yes
+	ai = no
+
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
+		OR = {
+			religion_group = christian
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+		}
+
+		completely_controls_region = trc_pars_occidentalis
+
+		# only fire once
+		NOT = { has_global_flag = trc_pars_occidentalis_restored }
+
+		# wait a week after other restoration events
+		had_global_flag = { flag = trc_diocesis_brittaniarum_restored days = 7 }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = trc_region_restoration_option_pars_occidentalis
+		prestige = 10000
+		set_global_flag = trc_pars_occidentalis_restored
+	}
+}
+
+# Imperium Romanum
+narrative_event = {
+	id = trc_region_restoration.32
+	title = trc_region_restoration_title_imperium_romanum
+	desc = trc_region_restoration_desc_imperium_romanum
+
+	picture = GFX_evt_victory_arch_byzantine
+
+	only_playable = yes
+	ai = no
+
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		is_alternate_start = no
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
+		OR = {
+			religion_group = christian
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+		}
+
+		completely_controls_region = trc_imperium_romanum
+
+		# only fire once
+		NOT = { has_global_flag = trc_imperium_romanum_restored }
+
+		# wait a week after other restoration events
+		had_global_flag = { flag = trc_pars_occidentalis_restored days = 7 }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = trc_region_restoration_option_imperium_romanum
+		set_global_flag = trc_imperium_romanum_restored
+
+		# TODO: add some cool shit, maybe a nickname and a bloodline
 	}
 }
 

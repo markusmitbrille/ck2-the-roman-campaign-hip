@@ -1,0 +1,76 @@
+decisions = {
+    trc_decision_restore_diocesis_thraciae = {
+        is_high_prio = yes
+        ai_check_interval = 24
+
+        potential = {
+            is_playable = yes
+            has_dlc = "Legacy of Rome"
+            OR = {
+                has_landed_title = e_byzantium
+                has_landed_title = e_roman_empire
+            }
+
+            completely_controls_region = trc_diocesis_thraciae
+
+			is_adult = yes
+			prisoner = no
+			is_incapable = no
+        }
+
+        allow = {
+            completely_controls_region = trc_diocesis_thraciae
+
+			is_adult = yes
+			prisoner = no
+			is_incapable = no
+
+            trc_trigger_can_restore_diocesis = yes
+        }
+
+        effect = {
+            trc_effect_restore_diocesis_cost = yes
+
+            c_byzantion = { de_jure_liege = d_urbs_byzantium }
+
+            c_kaliopolis = { de_jure_liege = d_provincia_europa }
+            c_thrake = { de_jure_liege = d_provincia_europa }
+            c_traianopolis = { de_jure_liege = d_provincia_europa }
+            c_mosynopolis = { de_jure_liege = d_provincia_europa }
+
+            c_adrianopolis = { de_jure_liege = k_diocesis_thraciae }
+            c_philippopolis = { de_jure_liege = k_diocesis_thraciae }
+            c_kopsis = { de_jure_liege = k_diocesis_thraciae }
+            c_mesembria = { de_jure_liege = k_diocesis_thraciae }
+
+            c_tyrnovo = { de_jure_liege = d_provincia_moesia_inferior }
+            c_nikopolis = { de_jure_liege = d_provincia_moesia_inferior }
+            c_dorostotum = { de_jure_liege = d_provincia_moesia_inferior }
+
+            c_karvuna = { de_jure_liege = d_provincia_scythia }
+            c_constantia = { de_jure_liege = d_provincia_scythia }
+
+            d_urbs_byzantium = { grant_title = ROOT }
+            k_urbs_byzantium = { grant_title = ROOT }
+
+            d_provincia_europa = { grant_title = ROOT }
+            d_provincia_thracia = { grant_title = ROOT }
+            d_provincia_moesia_inferior = { grant_title = ROOT }
+            d_provincia_scythia = { grant_title = ROOT }
+            k_diocesis_thraciae = { grant_title = ROOT }
+        }
+
+        ai_will_do = {
+            factor = 100
+            
+            modifier = {
+                factor = 0
+                OR = {
+                    is_dumb_trigger = yes
+                    is_benevolent_trigger = yes
+                    has_pleasant_personality_trigger = yes
+                }
+            }
+        }
+    }
+}

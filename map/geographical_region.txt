@@ -662,10 +662,10 @@ custom_neapolitan = {
 
 trc_diocesis_thraciae = {
 	duchies = {
-		d_karvuna d_turnovo d_adrianopolis d_thrace
+		d_karvuna d_adrianopolis d_thrace
 	}
 	counties = {
-		c_traianopolis c_mosynopolis
+		c_traianopolis c_mosynopolis c_tyrnovo c_nikopolis c_dorostotum
 	}
 }
 trc_diocesis_pontica = {
@@ -689,33 +689,37 @@ trc_diocesis_asiana = {
 
 trc_diocesis_macedoniae = {
 	duchies = {
-		d_krete d_thessalonika d_neopatras d_athens d_achaia d_epirus d_dyrrachion d_ohrid d_vidin d_rashka d_macva d_dioclea d_hum
+		d_krete d_thessalonika d_neopatras d_athens d_achaia d_epirus d_dyrrachion
 	}
 	counties = {
-		c_strymon
+		c_strymon c_velbazhd c_strumica c_ochrid c_skopje
 	}
 }
-trc_diocesis_dacia = { # TODO: move daciae parts of macedoniae here
+trc_diocesis_dacia = {
 	duchies = {
+		d_vidin d_rashka d_macva d_dioclea d_hum
 	}
 	counties = {
+		c_naissus c_serdica
 	}
 }
 trc_diocesis_orientis = {
 	duchies = {
-		d_seleukeia d_armenia_minor d_edessa d_amida d_aleppo d_antioch d_tripoli d_damascus d_galilee d_acre d_ascalon d_jerusalem d_jordan d_oultrejourdain d_sinai d_damietta d_cairo d_alexandria d_aswan d_cyprus
+		d_seleukeia d_armenia_minor d_edessa d_amida d_aleppo d_antioch d_tripoli d_damascus d_galilee d_acre d_ascalon d_jerusalem d_jordan d_oultrejourdain d_sinai d_cyprus
 	}
 	counties = {
-		c_mardin c_harran c_homs c_maan c_tobruk c_benghazi c_ajadabiya c_fayyum c_allaqi c_aydhab
+		c_mardin c_harran c_homs c_maan
 	}
 }
 
 # roman reconquest tier 3
 
-trc_diocesis_aegypti = { # TODO: move orientis parts of aegypti here
+trc_diocesis_aegypti = {
 	duchies = {
+		d_damietta d_cairo d_alexandria d_aswan
 	}
 	counties = {
+		c_tobruk c_benghazi c_ajadabiya c_fayyum c_allaqi c_aydhab
 	}
 }
 trc_provinciae_levantis = {
@@ -750,16 +754,17 @@ trc_diocesis_africae = {
 
 trc_diocesis_italiae_suburbicariae = {
 	duchies = {
-		d_sardinia d_corsica d_sicily d_calabria d_apulia d_salerno d_benevento d_capua d_napoli d_gaeta d_latium d_atri d_ancona d_spoleto d_urbino d_toscana d_siena d_sovana d_pisa d_lucca d_modena d_ravenna d_ferrara d_mantua d_verona d_venice d_aquileia d_lombardia d_parma d_massa d_genoa d_savona d_monferrato d_saluzzo d_ratien d_tyrol d_burgau d_teck d_tubingen d_baden
+		d_sardinia d_corsica d_sicily d_calabria d_apulia d_salerno d_benevento d_capua d_napoli d_gaeta d_latium d_atri d_ancona d_spoleto d_urbino d_toscana d_siena d_sovana d_pisa d_lucca
+	}
+	counties = {
+	}
+}
+trc_diocesis_italiae_annonariae = {
+	duchies = {
+		d_modena d_ravenna d_ferrara d_mantua d_verona d_venice d_aquileia d_lombardia d_parma d_massa d_genoa d_savona d_monferrato d_saluzzo d_ratien d_tyrol d_burgau d_teck d_tubingen d_baden
 	}
 	counties = {
 		c_trieste c_susa c_vercelli c_pombia
-	}
-}
-trc_diocesis_italiae_annonariae = { # TODO: move italiae suburbicariae parts of italiae annonariae here
-	duchies = {
-	}
-	counties = {
 	}
 }
 
@@ -785,7 +790,7 @@ trc_diocesis_viennensis = {
 
 trc_diocesis_galliarum = {
 	duchies = {
-		d_bourbon d_zahringen d_upper_burgundy d_burgundy d_nevers d_champagne d_archreims d_rethel d_valois d_orleans d_blois d_anjou d_alencon d_normandy d_brittany d_artois d_flanders d_hainaut d_brabant d_bouillon d_limburg d_luxembourg d_barleduc
+		d_bourbon d_zahringen d_upper_burgundy d_burgundy d_nevers d_champagne d_archreims d_rethel d_valois d_orleans d_blois d_anjou d_alencon d_normandy d_brittany d_artois d_flanders d_hainaut d_brabant d_bouillon d_limburg d_luxembourg d_barleduc d_trier
 	}
 	counties = {
 		c_sancerre c_gevaudan c_auvergne c_velay c_zeeland c_gelre c_julich c_koln c_chablais c_valais c_geneve c_savoie c_aosta
