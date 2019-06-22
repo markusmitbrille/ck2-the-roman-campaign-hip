@@ -140,6 +140,17 @@ faction_imperial_campaign_title;Imperial Campaign of Reconquest;;;;;;;;;;;;;x
 faction_imperial_campaign_short;Imperial Reconquest;;;;;;;;;;;;;x
 faction_imperial_campaign_desc;The members of this faction urge the §Y[This.GetRulerTitle]§! to action against the pretenders occupying [This.GetAdjective] lands. Though they will never issue an ultimatum to their liege, their readiness to take up arms for the glory of Rome is not be underestimated. If §Y[From.TopLiege.GetTitledName]§! should decide that the time has come to restore former [Root.PrimaryTitle.GetAdjective] territories to their rightful owner, these lords will be among the first to follow the §Y[This.GetRulerTitle]§! into battle.;;;;;;;;;;;;;x
 
+#  ########  ########  ######  ####  ######  ####  #######  ##    ##  ######  
+#  ##     ## ##       ##    ##  ##  ##    ##  ##  ##     ## ###   ## ##    ## 
+#  ##     ## ##       ##        ##  ##        ##  ##     ## ####  ## ##       
+#  ##     ## ######   ##        ##   ######   ##  ##     ## ## ## ##  ######  
+#  ##     ## ##       ##        ##        ##  ##  ##     ## ##  ####       ## 
+#  ##     ## ##       ##    ##  ##  ##    ##  ##  ##     ## ##   ### ##    ## 
+#  ########  ########  ######  ####  ######  ####  #######  ##    ##  ######  
+
+trc_decision_restore_diocesis_thraciae;Restore the Diocese of Thrace;;;;;;;;;;;;;x
+trc_decision_restore_diocesis_thraciae_desc;Investing a lot of resources and pulling a lot of strings, you could restructure and revive the old diocese of Thrace, along with its titles and dejure borders.;;;;;;;;;;;;;x
+
 #   ######     ###     ######  ##     ##  ######     ########  ######## ##       ##       #### 
 #  ##    ##   ## ##   ##    ## ##     ## ##    ##    ##     ## ##       ##       ##        ##  
 #  ##        ##   ##  ##       ##     ## ##          ##     ## ##       ##       ##        ##  
