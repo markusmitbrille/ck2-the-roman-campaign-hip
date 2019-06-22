@@ -4,8 +4,11 @@ e_roman_empire = { # Roman Empire
     capital = 333 # Roma # Rome
     short_name = yes
     purple_born_heirs = yes
-    culture = roman
-    religion = orthodox
+    # culture = roman
+    # religion = orthodox
+    title = "e_roman_empire_title"
+    title_female = "e_roman_empire_title_female"
+    foa = "e_roman_empire_foa"
     roman = "Imperium Romanum"
     greek = "Basileia Rhõmaiõn"
     norwegian = "Rómverska keisaradæmið"
@@ -33,12 +36,14 @@ e_roman_empire = { # Roman Empire
         color2 = { 255 255 255 }
         capital = 494 # Adrianopol # Adrianopolis
         short_name = yes
-        culture = greek
-        religion = orthodox
+        # culture = roman
+        # religion = orthodox
+        title = "e_roman_diocese_title"
+        title_female = "e_roman_empire_diocese_female"
+        foa = "e_roman_diocese_foa"
         roman = "Dioecesis Thraciae"
         greek = "Dioíkēsis Thrákēs"
         allow = {
-            FROM = { is_de_jure_title = no }
             title_king_basic_allow = yes
         }
     }
@@ -47,12 +52,14 @@ e_roman_empire = { # Roman Empire
         color2 = { 255 255 255 }
         capital = 941 # Amaseia
         short_name = yes
-        culture = greek
-        religion = orthodox
+        # culture = roman
+        # religion = orthodox
+        title = "e_roman_diocese_title"
+        title_female = "e_roman_empire_diocese_female"
+        foa = "e_roman_diocese_foa"
         roman = "Dioecesis Pontica"
         greek = "Dioíkēsis Pontikḗs"
         allow = {
-            FROM = { is_de_jure_title = no }
             title_king_basic_allow = yes
         }
     }
@@ -61,12 +68,14 @@ e_roman_empire = { # Roman Empire
         color2 = { 255 255 255 }
         capital = 746 # Ionía # Ephesos # Tralleis
         short_name = yes
-        culture = greek
-        religion = orthodox
+        # culture = roman
+        # religion = orthodox
+        title = "e_roman_diocese_title"
+        title_female = "e_roman_empire_diocese_female"
+        foa = "e_roman_diocese_foa"
         roman = "Dioecesis Asiana"
         greek = "Dioíkēsis Asianḗs"
         allow = {
-            FROM = { is_de_jure_title = no }
             title_king_basic_allow = yes
         }
     }
@@ -75,40 +84,47 @@ e_roman_empire = { # Roman Empire
         color2 = { 255 255 255 }
         capital = 490 # Thessaloníke # Thessalonike
         short_name = yes
-        culture = greek
-        religion = orthodox
+        # culture = roman
+        # religion = orthodox
+        title = "e_roman_diocese_title"
+        title_female = "e_roman_empire_diocese_female"
+        foa = "e_roman_diocese_foa"
         roman = "Dioecesis Moesiarum"
         greek = "Dioíkēsis Moisiṓn"
         allow = {
-            FROM = { is_de_jure_title = no }
             title_king_basic_allow = yes
         }
     }
     k_trc_diocesis_orientis = {
-        color = { 173, 31, 79 }
+        color = { 173 31 79 }
         color2 = { 255 255 255 }
         capital = 764 # Antioch
         short_name = yes
-        culture = greek
-        religion = orthodox
+        # culture = roman
+        # religion = orthodox
+        title = "e_roman_diocese_title"
+        title_female = "e_roman_empire_diocese_female"
+        foa = "e_roman_diocese_foa"
         roman = "Dioecesis Orientis"
         greek = "Dioíkēsis Anatolḗs"
         allow = {
-            FROM = { is_de_jure_title = no }
             title_king_basic_allow = yes
         }
     }
     k_trc_provincia_dacia = {
-        color = { 142, 34, 70 }
+        color = { 142 34 70 }
         color2 = { 255 255 255 }
         capital = 444 # Visegrád # Esztergom
         short_name = yes
-        culture = greek
-        religion = orthodox
+        name_tier = DUKE
+        # culture = roman
+        # religion = orthodox
+        title = "e_roman_province_title"
+        title_female = "e_roman_empire_province_female"
+        foa = "e_roman_province_foa"
         roman = "Provincia Dacia"
         greek = "Eparchía Dakías"
         allow = {
-            FROM = { is_de_jure_title = no }
             title_king_basic_allow = yes
         }
     }
@@ -117,12 +133,14 @@ e_roman_empire = { # Roman Empire
         color2 = { 255 255 255 }
         capital = 693 # Baghdad # Bagdad
         short_name = yes
-        culture = greek
-        religion = orthodox
+        # culture = roman
+        # religion = orthodox
+        title = "e_roman_diocese_title"
+        title_female = "e_roman_empire_diocese_female"
+        foa = "e_roman_diocese_foa"
         roman = "Dioecesis Levantium Provinciarum"
         greek = "Dioíkēsis Levantḗs Eparchiṓn"
         allow = {
-            FROM = { is_de_jure_title = no }
             title_king_basic_allow = yes
         }
     }
@@ -131,26 +149,30 @@ e_roman_empire = { # Roman Empire
         color2 = { 255 255 255 }
         capital = 1000 # Szerém # Syrmia
         short_name = yes
-        culture = greek
-        religion = orthodox
+        # culture = roman
+        # religion = orthodox
+        title = "e_roman_diocese_title"
+        title_female = "e_roman_empire_diocese_female"
+        foa = "e_roman_diocese_foa"
         roman = "Dioecesis Illyrici"
         greek = "Dioíkēsis Illuríās"
         allow = {
-            FROM = { is_de_jure_title = no }
             title_king_basic_allow = yes
         }
     }
     k_trc_diocesis_africae = {
-        color = { 168 13 64) }
+        color = { 168 13 64 }
         color2 = { 255 255 255 }
         capital = 817 # Tunis
         short_name = yes
-        culture = greek
-        religion = orthodox
+        # culture = roman
+        # religion = orthodox
+        title = "e_roman_diocese_title"
+        title_female = "e_roman_empire_diocese_female"
+        foa = "e_roman_diocese_foa"
         roman = "Dioecesis Africae"
         greek = "Dioíkēsis Afrikôn"
         allow = {
-            FROM = { is_de_jure_title = no }
             title_king_basic_allow = yes
         }
     }
@@ -159,12 +181,14 @@ e_roman_empire = { # Roman Empire
         color2 = { 255 255 255 }
         capital = 333 # Roma # Rome
         short_name = yes
-        culture = greek
-        religion = orthodox
+        # culture = roman
+        # religion = orthodox
+        title = "e_roman_diocese_title"
+        title_female = "e_roman_empire_diocese_female"
+        foa = "e_roman_diocese_foa"
         roman = "Dioecesis Italiae"
         greek = "Dioíkēsis Italías"
         allow = {
-            FROM = { is_de_jure_title = no }
             title_king_basic_allow = yes
         }
     }
@@ -173,12 +197,14 @@ e_roman_empire = { # Roman Empire
         color2 = { 255 255 255 }
         capital = 197 # Toledo
         short_name = yes
-        culture = greek
-        religion = orthodox
+        # culture = roman
+        # religion = orthodox
+        title = "e_roman_diocese_title"
+        title_female = "e_roman_empire_diocese_female"
+        foa = "e_roman_diocese_foa"
         roman = "Dioecesis Hispaniarum"
         greek = "Dioíkēsis Hispanías"
         allow = {
-            FROM = { is_de_jure_title = no }
             title_king_basic_allow = yes
         }
     }
@@ -187,26 +213,30 @@ e_roman_empire = { # Roman Empire
         color2 = { 255 255 255 }
         capital = 228 # Viennois # Dauphiné Viennois
         short_name = yes
-        culture = greek
-        religion = orthodox
+        # culture = roman
+        # religion = orthodox
+        title = "e_roman_diocese_title"
+        title_female = "e_roman_empire_diocese_female"
+        foa = "e_roman_diocese_foa"
         roman = "Dioecesis Septem Provinciarum"
         greek = "Dioíkēsis Heptá Eparchiṓn"
             allow = {
-                FROM = { is_de_jure_title = no }
                 title_king_basic_allow = yes
             }
     }
     k_trc_diocesis_galliarum = {
-        color = { 209 16 80) }
+        color = { 209 16 80 }
         color2 = { 255 255 255 }
         capital = 112 # Paris # Ile de France
         short_name = yes
-        culture = greek
-        religion = orthodox
+        # culture = roman
+        # religion = orthodox
+        title = "e_roman_diocese_title"
+        title_female = "e_roman_empire_diocese_female"
+        foa = "e_roman_diocese_foa"
         roman = "Dioecesis Galliarum"
         greek = "Dioíkēsis Galatôn"
         allow = {
-            FROM = { is_de_jure_title = no }
             title_king_basic_allow = yes
         }
     }
@@ -215,17 +245,21 @@ e_roman_empire = { # Roman Empire
         color2 = { 255 255 255 }
         capital = 72 # Essex
         short_name = yes
-        culture = greek
-        religion = orthodox
+        # culture = roman
+        # religion = orthodox
+        title = "e_roman_diocese_title"
+        title_female = "e_roman_empire_diocese_female"
+        foa = "e_roman_diocese_foa"
         roman = "Dioecesis Britanniarum"
         greek = "Dioíkēsis Prettanikḗ"
         allow = {
-            FROM = { is_de_jure_title = no }
             title_king_basic_allow = yes
         }
     }
     allow = {
-        FROM = { is_de_jure_title = no }
-        title_emperor_basic_allow = yes
+        AND = {
+            FROM = { is_de_jure_title = yes }
+            title_emperor_basic_allow = yes
+        }
     }
 } # end e_roman_empire

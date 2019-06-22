@@ -50,6 +50,21 @@ k_trc_diocesis_galliarum_adj;Gallic;;;;;;;;;;;;;x
 k_trc_diocesis_brittaniarum;Diocese of Britain;;;;;;;;;;;;;x
 k_trc_diocesis_brittaniarum_adj;British;;;;;;;;;;;;;x
 
+e_roman_empire_title;Imperator;;;;;;;;;;;;;x
+e_roman_empire_title_female;Imperatrix;;;;;;;;;;;;;x
+e_roman_empire_foa;Ave Imperator;;;;;;;;;;;;;x
+e_roman_empire_foa_female;Ave Imperatrix;;;;;;;;;;;;;x
+
+e_roman_diocese_title;Vicarius;;;;;;;;;;;;;x
+e_roman_diocese_title_female;Vicaria;;;;;;;;;;;;;x
+e_roman_diocese_foa;Ave Vicarie;;;;;;;;;;;;;x
+e_roman_diocese_foa_female;Ave Vicaria;;;;;;;;;;;;;x
+
+e_roman_province_title;Praefectus;;;;;;;;;;;;;x
+e_roman_province_title_female;Praefecta;;;;;;;;;;;;;x
+e_roman_province_foa;Ave Praefecte;;;;;;;;;;;;;x
+e_roman_province_foa_female;Ave Praefecta;;;;;;;;;;;;;x
+
 #  ########  ########  ######   ####  #######  ##    ##  ######  
 #  ##     ## ##       ##    ##   ##  ##     ## ###   ## ##    ## 
 #  ##     ## ##       ##         ##  ##     ## ####  ## ##       
