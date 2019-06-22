@@ -1,0 +1,231 @@
+e_roman_empire = { # Roman Empire
+    color = { 142 0 48 }
+    color2 = { 255 255 255 }
+    capital = 333 # Roma # Rome
+    short_name = yes
+    purple_born_heirs = yes
+    culture = roman
+    religion = orthodox
+    roman = "Imperium Romanum"
+    greek = "Basileia Rhõmaiõn"
+    norwegian = "Rómverska keisaradæmið"
+    danish = "Rómverska keisaradæmið"
+    swedish = "Rómverska keisaradæmið"
+    anglonorse = "Rómverska keisaradæmið"
+    norse = "Rómverska keisaradæmið"
+    norsegaelic = "Rómverska keisaradæmið"
+    icelandic = "Rómverska keisaradæmið"
+    bohemian = "Rzímská Rzíše"
+    hungarian = "Római Birodalom"
+    polish = "Cesarstwo Rzymski"
+    serbian = "Rimsko Carstvo"
+    croatian = "Rimsko Carstvo"
+    bosnian = "Rimsku Imperiju"
+    carantanian = "Rimsko Cesárstvo"
+    russian = "Rimskaya Imperiya"
+    bulgarian = "Rimska Imperiya"
+    romanian = "Imperiul Roman"
+    arberian = "Perandoria Romake"
+    armenian = "Hrromeakan Kaysrut'yun"
+    georgian = "Romis Imperia"
+    k_diocesis_thraciae = {
+        color = { 178 14 69 }
+        color2 = { 255 255 255 }
+        capital = 494 # Adrianopol # Adrianopolis
+        short_name = yes
+        culture = greek
+        religion = orthodox
+        roman = "Dioecesis Thraciae"
+        greek = "Dioíkēsis Thrákēs"
+        allow = {
+            FROM = { is_de_jure_title = no }
+            title_king_basic_allow = yes
+        }
+    }
+    k_trc_diocesis_pontica = {
+        color = { 181 30 81 }
+        color2 = { 255 255 255 }
+        capital = 941 # Amaseia
+        short_name = yes
+        culture = greek
+        religion = orthodox
+        roman = "Dioecesis Pontica"
+        greek = "Dioíkēsis Pontikḗs"
+        allow = {
+            FROM = { is_de_jure_title = no }
+            title_king_basic_allow = yes
+        }
+    }
+    k_trc_diocesis_asiana = {
+        color = { 198 19 80 }
+        color2 = { 255 255 255 }
+        capital = 746 # Ionía # Ephesos # Tralleis
+        short_name = yes
+        culture = greek
+        religion = orthodox
+        roman = "Dioecesis Asiana"
+        greek = "Dioíkēsis Asianḗs"
+        allow = {
+            FROM = { is_de_jure_title = no }
+            title_king_basic_allow = yes
+        }
+    }
+    k_trc_diocesis_moesiarum = {
+        color = { 216 28 92 }
+        color2 = { 255 255 255 }
+        capital = 490 # Thessaloníke # Thessalonike
+        short_name = yes
+        culture = greek
+        religion = orthodox
+        roman = "Dioecesis Moesiarum"
+        greek = "Dioíkēsis Moisiṓn"
+        allow = {
+            FROM = { is_de_jure_title = no }
+            title_king_basic_allow = yes
+        }
+    }
+    k_trc_diocesis_orientis = {
+        color = { 173, 31, 79 }
+        color2 = { 255 255 255 }
+        capital = 764 # Antioch
+        short_name = yes
+        culture = greek
+        religion = orthodox
+        roman = "Dioecesis Orientis"
+        greek = "Dioíkēsis Anatolḗs"
+        allow = {
+            FROM = { is_de_jure_title = no }
+            title_king_basic_allow = yes
+        }
+    }
+    k_trc_provincia_dacia = {
+        color = { 142, 34, 70 }
+        color2 = { 255 255 255 }
+        capital = 444 # Visegrád # Esztergom
+        short_name = yes
+        culture = greek
+        religion = orthodox
+        roman = "Provincia Dacia"
+        greek = "Eparchía Dakías"
+        allow = {
+            FROM = { is_de_jure_title = no }
+            title_king_basic_allow = yes
+        }
+    }
+    k_trc_provinciae_levantis = {
+        color = { 163 24 70 }
+        color2 = { 255 255 255 }
+        capital = 693 # Baghdad # Bagdad
+        short_name = yes
+        culture = greek
+        religion = orthodox
+        roman = "Dioecesis Levantium Provinciarum"
+        greek = "Dioíkēsis Levantḗs Eparchiṓn"
+        allow = {
+            FROM = { is_de_jure_title = no }
+            title_king_basic_allow = yes
+        }
+    }
+    k_trc_diocesis_pannoniarum = {
+        color = { 186 20 75 }
+        color2 = { 255 255 255 }
+        capital = 1000 # Szerém # Syrmia
+        short_name = yes
+        culture = greek
+        religion = orthodox
+        roman = "Dioecesis Illyrici"
+        greek = "Dioíkēsis Illuríās"
+        allow = {
+            FROM = { is_de_jure_title = no }
+            title_king_basic_allow = yes
+        }
+    }
+    k_trc_diocesis_africae = {
+        color = { 168 13 64) }
+        color2 = { 255 255 255 }
+        capital = 817 # Tunis
+        short_name = yes
+        culture = greek
+        religion = orthodox
+        roman = "Dioecesis Africae"
+        greek = "Dioíkēsis Afrikôn"
+        allow = {
+            FROM = { is_de_jure_title = no }
+            title_king_basic_allow = yes
+        }
+    }
+    k_trc_diocesis_italiae = {
+        color = { 142 0 48 }
+        color2 = { 255 255 255 }
+        capital = 333 # Roma # Rome
+        short_name = yes
+        culture = greek
+        religion = orthodox
+        roman = "Dioecesis Italiae"
+        greek = "Dioíkēsis Italías"
+        allow = {
+            FROM = { is_de_jure_title = no }
+            title_king_basic_allow = yes
+        }
+    }
+    k_trc_diocesis_hispaniarum = {
+        color = { 209 23 84 }
+        color2 = { 255 255 255 }
+        capital = 197 # Toledo
+        short_name = yes
+        culture = greek
+        religion = orthodox
+        roman = "Dioecesis Hispaniarum"
+        greek = "Dioíkēsis Hispanías"
+        allow = {
+            FROM = { is_de_jure_title = no }
+            title_king_basic_allow = yes
+        }
+    }
+    k_trc_diocesis_viennensis = {
+        color = { 183 7 65 }
+        color2 = { 255 255 255 }
+        capital = 228 # Viennois # Dauphiné Viennois
+        short_name = yes
+        culture = greek
+        religion = orthodox
+        roman = "Dioecesis Septem Provinciarum"
+        greek = "Dioíkēsis Heptá Eparchiṓn"
+            allow = {
+                FROM = { is_de_jure_title = no }
+                title_king_basic_allow = yes
+            }
+    }
+    k_trc_diocesis_galliarum = {
+        color = { 209 16 80) }
+        color2 = { 255 255 255 }
+        capital = 112 # Paris # Ile de France
+        short_name = yes
+        culture = greek
+        religion = orthodox
+        roman = "Dioecesis Galliarum"
+        greek = "Dioíkēsis Galatôn"
+        allow = {
+            FROM = { is_de_jure_title = no }
+            title_king_basic_allow = yes
+        }
+    }
+    k_trc_diocesis_brittaniarum = {
+        color = { 130 9 49 }
+        color2 = { 255 255 255 }
+        capital = 72 # Essex
+        short_name = yes
+        culture = greek
+        religion = orthodox
+        roman = "Dioecesis Britanniarum"
+        greek = "Dioíkēsis Prettanikḗ"
+        allow = {
+            FROM = { is_de_jure_title = no }
+            title_king_basic_allow = yes
+        }
+    }
+    allow = {
+        FROM = { is_de_jure_title = no }
+        title_emperor_basic_allow = yes
+    }
+} # end e_roman_empire

@@ -44,7 +44,7 @@ narrative_event = {
 	}
 
 	option = {
-		name = trc_region_restoration_title_01
+		name = trc_region_restoration_option_01
 		prestige = 1000
 		set_global_flag = trc_diocesis_thraciae_restored
 		# TODO: activate and create landed title for this region (needs to be implemented first)
