@@ -8,21 +8,21 @@ e_roman_empire = { # Roman Empire
     title_female = "e_roman_empire_title_female"
     foa = "e_roman_empire_foa"
     roman = "Imperium Romanum"
-    greek = "Basileia Rh√µmai√µn"
-    norwegian = "R√≥mverska keisarad√¶mi√∞"
-    danish = "R√≥mverska keisarad√¶mi√∞"
-    swedish = "R√≥mverska keisarad√¶mi√∞"
-    anglonorse = "R√≥mverska keisarad√¶mi√∞"
-    norse = "R√≥mverska keisarad√¶mi√∞"
-    norsegaelic = "R√≥mverska keisarad√¶mi√∞"
-    icelandic = "R√≥mverska keisarad√¶mi√∞"
-    bohemian = "Rz√≠msk√° Rz√≠≈°e"
-    hungarian = "R√≥mai Birodalom"
+    greek = "Basileia Rhımaiın"
+    norwegian = "RÛmverska keisaradÊmi"
+    danish = "RÛmverska keisaradÊmi"
+    swedish = "RÛmverska keisaradÊmi"
+    anglonorse = "RÛmverska keisaradÊmi"
+    norse = "RÛmverska keisaradÊmi"
+    norsegaelic = "RÛmverska keisaradÊmi"
+    icelandic = "RÛmverska keisaradÊmi"
+    bohemian = "RzÌmsk· RzÌöe"
+    hungarian = "RÛmai Birodalom"
     polish = "Cesarstwo Rzymski"
     serbian = "Rimsko Carstvo"
     croatian = "Rimsko Carstvo"
     bosnian = "Rimsku Imperiju"
-    carantanian = "Rimsko Ces√°rstvo"
+    carantanian = "Rimsko Ces·rstvo"
     russian = "Rimskaya Imperiya"
     bulgarian = "Rimska Imperiya"
     romanian = "Imperiul Roman"
@@ -43,7 +43,7 @@ e_roman_empire = { # Roman Empire
         title_female = "roman_urbs_title_female"
         foa = "roman_urbs_foa"
         roman = "Urbs Roma"
-        greek = "P√≥lis Rh·πìmƒì"
+        greek = "PÛlis RhÛme"
         allow = { title_king_basic_allow = yes }
         d_urbs_roma = {
             color = { 130 0 0 }
@@ -56,7 +56,7 @@ e_roman_empire = { # Roman Empire
             title_female = "roman_urbs_title_female"
             foa = "roman_urbs_foa"
             roman = "Urbs Roma"
-            greek = "P√≥lis Rh·πìmƒì"
+            greek = "PÛlis RhÛme"
             allow = { title_duke_basic_allow = yes }
         }
     }
@@ -71,7 +71,7 @@ e_roman_empire = { # Roman Empire
         title_female = "roman_urbs_title_female"
         foa = "roman_urbs_foa"
         roman = "Urbs Byzantium"
-        greek = "P√≥lis Byzantion"
+        greek = "PÛlis Byzantion"
         allow = { title_king_basic_allow = yes }
         d_urbs_byzantium = {
             color = { 102 2 60 }
@@ -84,7 +84,7 @@ e_roman_empire = { # Roman Empire
             title_female = "roman_urbs_title_female"
             foa = "roman_urbs_foa"
             roman = "Urbs Byzantium"
-            greek = "P√≥lis Byzantion"
+            greek = "PÛlis Byzantion"
             allow = { title_duke_basic_allow = yes }
         }
     }
@@ -100,7 +100,7 @@ e_roman_empire = { # Roman Empire
         title_female = "k_roman_diocese_title_female"
         foa = "k_roman_diocese_foa"
         roman = "Dioecesis Thraciae"
-        greek = "Dio√≠kƒìsis Thr√°kƒìs"
+        greek = "DioÌkesis Thr·kes"
         allow = { title_king_basic_allow = yes }
         d_provincia_europa = {
             color = { 127 12 47 }
@@ -111,7 +111,7 @@ e_roman_empire = { # Roman Empire
             title_female = "d_roman_province_title_female"
             foa = "d_roman_province_foa"
             roman = "Provincia Europa"
-            greek = "Eparch√≠a Eur·πìpƒì"
+            greek = "EparchÌa EurÛpe"
             allow = { title_duke_basic_allow = yes }
         }
         d_provincia_thracia = {
@@ -123,7 +123,7 @@ e_roman_empire = { # Roman Empire
             title_female = "d_roman_province_title_female"
             foa = "d_roman_province_foa"
             roman = "Provincia Thracia"
-            greek = "Eparch√≠a ThrƒÅik≈çÃÇn"
+            greek = "EparchÌa ThraikÛn"
             allow = { title_duke_basic_allow = yes }
         }
         d_provincia_scythia = {
@@ -135,7 +135,7 @@ e_roman_empire = { # Roman Empire
             title_female = "d_roman_province_title_female"
             foa = "d_roman_province_foa"
             roman = "Provincia Scythia"
-            greek = "Eparch√≠a Skyth√≠a"
+            greek = "EparchÌa SkythÌa"
             allow = { title_duke_basic_allow = yes }
         }
         d_provincia_moesia_inferior = {
@@ -147,7 +147,7 @@ e_roman_empire = { # Roman Empire
             title_female = "d_roman_province_title_female"
             foa = "d_roman_province_foa"
             roman = "Provincia Moesia Inferior"
-            greek = "Eparch√≠a Moisƒ≠ÃÅƒÅ Hypome√≠≈çn"
+            greek = "EparchÌa MoisÌa HypomeÌon"
             allow = { title_duke_basic_allow = yes }
         }
     }
@@ -160,31 +160,31 @@ e_roman_empire = { # Roman Empire
         title_female = "k_roman_diocese_title_female"
         foa = "k_roman_diocese_foa"
         roman = "Dioecesis Pontica"
-        greek = "Dio√≠kƒìsis Pontik·∏ós"
+        greek = "DioÌkesis PontikÈs"
         allow = { title_king_basic_allow = yes }
     }
     k_diocesis_asiana = {
         color = { 198 19 80 }
         color2 = { 255 255 255 }
-        capital = 746 # Ion√≠a # Ephesos # Tralleis
+        capital = 746 # IonÌa # Ephesos # Tralleis
         short_name = yes
         title = "k_roman_diocese_title"
         title_female = "k_roman_diocese_title_female"
         foa = "k_roman_diocese_foa"
         roman = "Dioecesis Asiana"
-        greek = "Dio√≠kƒìsis Asian·∏ós"
+        greek = "DioÌkesis AsianÈs"
         allow = { title_king_basic_allow = yes }
     }
     k_diocesis_macedoniae = {
         color = { 216 28 92 }
         color2 = { 255 255 255 }
-        capital = 490 # Thessalon√≠ke # Thessalonike
+        capital = 490 # ThessalonÌke # Thessalonike
         short_name = yes
         title = "k_roman_diocese_title"
         title_female = "k_roman_diocese_title_female"
         foa = "k_roman_diocese_foa"
         roman = "Dioecesis Macedoniae"
-        greek = "Dio√≠kƒìsis Makedon√≠as"
+        greek = "DioÌkesis MakedonÌas"
         allow = { title_king_basic_allow = yes }
     }
     k_diocesis_daciae = {
@@ -196,7 +196,7 @@ e_roman_empire = { # Roman Empire
         title_female = "k_roman_diocese_title_female"
         foa = "k_roman_diocese_foa"
         roman = "Dioecesis Daciae"
-        greek = "Dio√≠kƒìsis Dak√≠as"
+        greek = "DioÌkesis DakÌas"
         allow = { title_king_basic_allow = yes }
     }
     k_diocesis_orientis = {
@@ -208,19 +208,19 @@ e_roman_empire = { # Roman Empire
         title_female = "k_roman_diocese_title_female"
         foa = "k_roman_diocese_foa"
         roman = "Dioecesis Orientis"
-        greek = "He·πìia Dio√≠kƒìsis"
+        greek = "HeÛia DioÌkesis"
         allow = { title_king_basic_allow = yes }
     }
     k_diocesis_aegypti = {
         color = { 198 25 84 }
         color2 = { 255 255 255 }
-        capital = 802 # Iskandar√≠ya # Alexandria
+        capital = 802 # IskandarÌya # Alexandria
         short_name = yes
         title = "k_roman_diocese_title"
         title_female = "k_roman_diocese_title_female"
         foa = "k_roman_diocese_foa"
         roman = "Dioecesis Aegypti"
-        greek = "Dio√≠kƒìsƒì Aig√Ωptou"
+        greek = "DioÌkese Aig˝ptou"
         allow = { title_king_basic_allow = yes }
     }
     k_provinciae_levantis = {
@@ -232,13 +232,13 @@ e_roman_empire = { # Roman Empire
         title_female = "k_roman_diocese_title_female"
         foa = "k_roman_diocese_foa"
         roman = "Dioecesis Levantium Provinciarum"
-        greek = "Dio√≠kƒìsis Levant·∏ós Eparchi·πìn"
+        greek = "DioÌkesis LevantÈs EparchiÛn"
         allow = { title_king_basic_allow = yes }
     }
     k_diocesis_illyrici = {
         color = { 186 20 75 }
         color2 = { 255 255 255 }
-        capital = 1000 # Szer√©m # Syrmia
+        capital = 1000 # SzerÈm # Syrmia
         short_name = yes
         title = "k_roman_diocese_title"
         title_female = "k_roman_diocese_title_female"
@@ -286,7 +286,7 @@ e_roman_empire = { # Roman Empire
     k_diocesis_hispaniae = {
         color = { 209 23 84 }
         color2 = { 255 255 255 }
-        capital = 183 # M√©rida # Emerita Augusta
+        capital = 183 # MÈrida # Emerita Augusta
         short_name = yes
         title = "k_roman_diocese_title"
         title_female = "k_roman_diocese_title_female"
@@ -298,13 +298,13 @@ e_roman_empire = { # Roman Empire
     k_diocesis_viennensis = {
         color = { 183 7 65 }
         color2 = { 255 255 255 }
-        capital = 228 # Viennois # Dauphin√© Viennois
+        capital = 228 # Viennois # DauphinÈ Viennois
         short_name = yes
         title = "k_roman_diocese_title"
         title_female = "k_roman_diocese_title_female"
         foa = "k_roman_diocese_foa"
         roman = "Dioecesis Septem Provinciarum"
-        greek = "Dio√≠kƒìsis Hept√° Eparchi·πìn"
+        greek = "DioÌkesis Hept· EparchiÛn"
             allow = {
                 title_king_basic_allow = yes
             }
@@ -318,7 +318,7 @@ e_roman_empire = { # Roman Empire
         title_female = "k_roman_diocese_title_female"
         foa = "k_roman_diocese_foa"
         roman = "Dioecesis Galliae"
-        greek = "Dio√≠kƒìsis Galat√¥n"
+        greek = "DioÌkesis GalatÙn"
         allow = { title_king_basic_allow = yes }
     }
     k_diocesis_brittaniarum = {
@@ -330,7 +330,7 @@ e_roman_empire = { # Roman Empire
         title_female = "k_roman_diocese_title_female"
         foa = "k_roman_diocese_foa"
         roman = "Dioecesis Britanniae"
-        greek = "Dio√≠kƒìsis Prettanik·∏ó"
+        greek = "DioÌkesis PrettanikÈ"
         allow = { title_king_basic_allow = yes }
     }
     allow = {

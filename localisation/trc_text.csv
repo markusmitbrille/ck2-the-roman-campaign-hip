@@ -90,15 +90,27 @@ e_roman_empire_title_female;Imperatrix;;;;;;;;;;;;;x
 e_roman_empire_foa;Ave Imperator;;;;;;;;;;;;;x
 e_roman_empire_foa_female;Ave Imperatrix;;;;;;;;;;;;;x
 
+e_roman_empire_title_greek;Árchon;;;;;;;;;;;;;x
+e_roman_empire_foa_greek;Hail Árchon;;;;;;;;;;;;;x
+
 k_roman_diocese_title;Vicarius;;;;;;;;;;;;;x
 k_roman_diocese_title_female;Vicaria;;;;;;;;;;;;;x
 k_roman_diocese_foa;Ave Vicarie;;;;;;;;;;;;;x
 k_roman_diocese_foa_female;Ave Vicaria;;;;;;;;;;;;;x
 
-d_roman_province_title;Praeses;;;;;;;;;;;;;x
-d_roman_province_title_female;Praesidetrix;;;;;;;;;;;;;x
-d_roman_province_foa;Ave Praeses;;;;;;;;;;;;;x
-d_roman_province_foa_female;Ave Praesidetrix;;;;;;;;;;;;;x
+k_roman_diocese_title_greek;Éxarkhos;;;;;;;;;;;;;x
+k_roman_diocese_foa_greek;Hail Éxarkhos;;;;;;;;;;;;;x
+
+d_roman_province_title;Corrector;;;;;;;;;;;;;x
+d_roman_province_title_female;Correctrix;;;;;;;;;;;;;x
+d_roman_province_foa;Ave Corrector;;;;;;;;;;;;;x
+d_roman_province_foa_female;Ave Correctrix;;;;;;;;;;;;;x
+
+# TODO: Find more fitting term for province title in greek
+d_roman_province_title_greek;Corrector;;;;;;;;;;;;;x
+d_roman_province_title_female_greek;Correctrix;;;;;;;;;;;;;x
+d_roman_province_foa_greek;Hail Corrector;;;;;;;;;;;;;x
+d_roman_province_foa_female_greek;Hail Correctrix;;;;;;;;;;;;;x
 
 #  ########  ########  ######   ####  #######  ##    ##  ######  
 #  ##     ## ##       ##    ##   ##  ##     ## ###   ## ##    ## 

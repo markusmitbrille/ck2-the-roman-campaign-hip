@@ -1,0 +1,7 @@
+spriteTypes = {
+  spriteType = {
+    name = "GFX_trc_decision_restore_diocesis_thraciae"
+    texturefile = "gfx\\interface\\decision_icon_make_rome_capital.dds"
+  }
+}
+  
